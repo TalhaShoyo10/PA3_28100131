@@ -1,0 +1,9 @@
+suite,condition,gen_s_per_answer
+grounding,complementary,0.03346762832811794
+grounding,correct,0.033807756562509506
+grounding,mismatched,0.03387511832810432
+grounding,none,0.12185940133591751
+vqav2,complementary,0.03972145978126151
+vqav2,correct,0.040084451020831045
+vqav2,mismatched,0.036844108557298756
+vqav2,none,0.13753712890624514

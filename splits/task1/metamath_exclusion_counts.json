@@ -1,0 +1,19 @@
+{
+  "excluded_by_reason_first_match": {
+    "formatted_length_over_max": 2
+  },
+  "gsm8k_test_questions": 1319,
+  "kept_rows_with_leading_newline_stripped_from_response": 667,
+  "last_kept_row_index": 40001,
+  "length_definition": "prompt tokens from the chat template with enable_thinking=False and add_generation_prompt=True, plus response tokens, plus the end-of-turn token",
+  "max_tokens": 2048,
+  "normalization_rule": "lowercase; delete every character that is not a word character or whitespace; collapse whitespace runs to one space; strip",
+  "reason_order": [
+    "empty_query_or_response",
+    "gsm8k_test_match_query",
+    "gsm8k_test_match_original_question",
+    "formatted_length_over_max"
+  ],
+  "rows_scanned": 40002,
+  "template_mismatches": 0
+}

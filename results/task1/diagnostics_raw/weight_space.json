@@ -1,0 +1,187 @@
+{
+  "k": 128,
+  "random_subspace_reference_rho": 0.125,
+  "rows": [
+    {
+      "condition": "full_ft_625",
+      "delta_fro": 0.618007678764389,
+      "delta_source": "fp32 down_proj weights saved at the checkpoint",
+      "eta": 0.013279054528451961,
+      "k": 128,
+      "layer": 0,
+      "module": "down_proj",
+      "rho_k": 0.13324797184727138
+    },
+    {
+      "condition": "full_ft_625",
+      "delta_fro": 0.6560865748637519,
+      "delta_source": "fp32 down_proj weights saved at the checkpoint",
+      "eta": 0.015406288281569517,
+      "k": 128,
+      "layer": 13,
+      "module": "down_proj",
+      "rho_k": 0.14838379931496168
+    },
+    {
+      "condition": "full_ft_625",
+      "delta_fro": 0.5973736587894815,
+      "delta_source": "fp32 down_proj weights saved at the checkpoint",
+      "eta": 0.012484357399291528,
+      "k": 128,
+      "layer": 27,
+      "module": "down_proj",
+      "rho_k": 0.1160545545494108
+    },
+    {
+      "condition": "full_ft_1250",
+      "delta_fro": 0.6405021449247054,
+      "delta_source": "fp32 down_proj weights saved at the checkpoint",
+      "eta": 0.01376239033963229,
+      "k": 128,
+      "layer": 0,
+      "module": "down_proj",
+      "rho_k": 0.1329482659715215
+    },
+    {
+      "condition": "full_ft_1250",
+      "delta_fro": 0.6828225910883342,
+      "delta_source": "fp32 down_proj weights saved at the checkpoint",
+      "eta": 0.016034105995325013,
+      "k": 128,
+      "layer": 13,
+      "module": "down_proj",
+      "rho_k": 0.14824210198591578
+    },
+    {
+      "condition": "full_ft_1250",
+      "delta_fro": 0.6207390480114855,
+      "delta_source": "fp32 down_proj weights saved at the checkpoint",
+      "eta": 0.012972664617946194,
+      "k": 128,
+      "layer": 27,
+      "module": "down_proj",
+      "rho_k": 0.11540839136599182
+    },
+    {
+      "condition": "l2sp_1250",
+      "delta_fro": 0.5214990960168027,
+      "delta_source": "fp32 down_proj weights saved at the checkpoint",
+      "eta": 0.011205386551816033,
+      "k": 128,
+      "layer": 0,
+      "module": "down_proj",
+      "rho_k": 0.13165021765209686
+    },
+    {
+      "condition": "l2sp_1250",
+      "delta_fro": 0.5836910254319572,
+      "delta_source": "fp32 down_proj weights saved at the checkpoint",
+      "eta": 0.013706289001626215,
+      "k": 128,
+      "layer": 13,
+      "module": "down_proj",
+      "rho_k": 0.15000385706342897
+    },
+    {
+      "condition": "l2sp_1250",
+      "delta_fro": 0.3761510553819619,
+      "delta_source": "fp32 down_proj weights saved at the checkpoint",
+      "eta": 0.007861083498433964,
+      "k": 128,
+      "layer": 27,
+      "module": "down_proj",
+      "rho_k": 0.10683349790506036
+    },
+    {
+      "condition": "lora_r4",
+      "delta_fro": 0.42664991961310245,
+      "delta_source": "fp32 exported factors, projected=False",
+      "eta": 0.00916737403397534,
+      "k": 128,
+      "layer": 0,
+      "module": "down_proj",
+      "rho_k": 0.1338950541009378
+    },
+    {
+      "condition": "lora_r4",
+      "delta_fro": 0.4319739063313214,
+      "delta_source": "fp32 exported factors, projected=False",
+      "eta": 0.010143652965979525,
+      "k": 128,
+      "layer": 13,
+      "module": "down_proj",
+      "rho_k": 0.14193753084286176
+    },
+    {
+      "condition": "lora_r4",
+      "delta_fro": 0.3271365658909388,
+      "delta_source": "fp32 exported factors, projected=False",
+      "eta": 0.006836742375342372,
+      "k": 128,
+      "layer": 27,
+      "module": "down_proj",
+      "rho_k": 0.10694167984053578
+    },
+    {
+      "condition": "lora_r16",
+      "delta_fro": 0.6909526815309025,
+      "delta_source": "fp32 exported factors, projected=False",
+      "eta": 0.014846414777520807,
+      "k": 128,
+      "layer": 0,
+      "module": "down_proj",
+      "rho_k": 0.14471573588174685
+    },
+    {
+      "condition": "lora_r16",
+      "delta_fro": 0.7757213424675157,
+      "delta_source": "fp32 exported factors, projected=False",
+      "eta": 0.018215563442526617,
+      "k": 128,
+      "layer": 13,
+      "module": "down_proj",
+      "rho_k": 0.13928376576676385
+    },
+    {
+      "condition": "lora_r16",
+      "delta_fro": 0.5575864173687722,
+      "delta_source": "fp32 exported factors, projected=False",
+      "eta": 0.011652854144135317,
+      "k": 128,
+      "layer": 27,
+      "module": "down_proj",
+      "rho_k": 0.11565750614153471
+    },
+    {
+      "condition": "oplora_r16",
+      "delta_fro": 0.6867318677882925,
+      "delta_source": "fp32 exported factors, projected=True",
+      "eta": 0.014755722674868268,
+      "k": 128,
+      "layer": 0,
+      "module": "down_proj",
+      "rho_k": 4.651196518620394e-08
+    },
+    {
+      "condition": "oplora_r16",
+      "delta_fro": 0.7949209242032292,
+      "delta_source": "fp32 exported factors, projected=True",
+      "eta": 0.018666409874138767,
+      "k": 128,
+      "layer": 13,
+      "module": "down_proj",
+      "rho_k": 2.4510341304639134e-08
+    },
+    {
+      "condition": "oplora_r16",
+      "delta_fro": 0.45619014720516443,
+      "delta_source": "fp32 exported factors, projected=True",
+      "eta": 0.009533799751541653,
+      "k": 128,
+      "layer": 27,
+      "module": "down_proj",
+      "rho_k": 1.96007649399138e-08
+    }
+  ],
+  "svd": "torch.linalg.svd of FP32 W0, same call as OPLoRA preprocessing"
+}

@@ -1,0 +1,7 @@
+{
+  "batch_size": 8,
+  "decoding": "greedy",
+  "device": "Tesla T4",
+  "max_new_tokens": 16,
+  "peak_mem_gb": 1.588814336
+}

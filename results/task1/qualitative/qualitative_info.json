@@ -1,0 +1,10 @@
+{
+  "annotated_questions": [
+    "enough_of_my_husband",
+    "what_is_your_wish"
+  ],
+  "decoding": "greedy",
+  "max_new_tokens": 512,
+  "n_responses": 168,
+  "paraphrase_used": "first paraphrase of each entry"
+}

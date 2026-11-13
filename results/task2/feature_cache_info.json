@@ -1,0 +1,58 @@
+{
+  "compute_dtype": "torch.float32",
+  "device": "cpu",
+  "image_dirs": {
+    "train2014": "/kaggle/input/datasets/jeffaudi/coco-2014-dataset-for-yolov3/coco2014/images/train2014",
+    "val2014": "/kaggle/input/datasets/jeffaudi/coco-2014-dataset-for-yolov3/coco2014/images/val2014"
+  },
+  "layernorm_check": {
+    "last_hidden_state_equals_post_layernorm_of_final_hidden_state": true,
+    "max_abs_diff": 0.0
+  },
+  "model": "google/siglip-base-patch16-224",
+  "peak_mem_gb": null,
+  "processor": {
+    "_processor_class": "SiglipProcessor",
+    "do_convert_rgb": null,
+    "do_normalize": true,
+    "do_rescale": true,
+    "do_resize": true,
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_processor_type": "SiglipImageProcessor",
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "resample": 3,
+    "rescale_factor": 0.00392156862745098,
+    "size": {
+      "height": 224,
+      "width": 224
+    }
+  },
+  "shape_per_image": [
+    196,
+    768
+  ],
+  "splits": {
+    "dev": {
+      "n_images": 208,
+      "seconds": 88.29133578200071
+    },
+    "test": {
+      "n_images": 320,
+      "seconds": 131.3804984190001
+    },
+    "train": {
+      "n_images": 8874,
+      "seconds": 3577.5485918639997
+    }
+  },
+  "stored_dtype": "float16",
+  "total_seconds_including_load": 3798.501318566
+}

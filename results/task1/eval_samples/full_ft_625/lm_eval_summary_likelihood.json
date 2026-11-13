@@ -1,0 +1,188 @@
+{
+  "arc_easy": {
+    "acc,none": 0.6557239057239057,
+    "acc_norm,none": 0.625,
+    "acc_norm_stderr,none": 0.009933992677987828,
+    "acc_stderr,none": 0.009749495321590905,
+    "alias": "arc_easy",
+    "name": "arc_easy",
+    "sample_len": 2376
+  },
+  "backend": "hf",
+  "boolq": {
+    "acc,none": 0.5954128440366973,
+    "acc_stderr,none": 0.00858435530893262,
+    "alias": "boolq",
+    "name": "boolq",
+    "sample_len": 3270
+  },
+  "condition": "full_ft_625",
+  "configs": {
+    "arc_easy": {
+      "dataset_name": "ARC-Easy",
+      "dataset_path": "allenai/ai2_arc",
+      "description": "",
+      "doc_to_choice": "{{choices.text}}",
+      "doc_to_decontamination_query": "Question: {{question}}\nAnswer:",
+      "doc_to_target": "{{choices.label.index(answerKey)}}",
+      "doc_to_text": "Question: {{question}}\nAnswer:",
+      "fewshot_config": {
+        "doc_to_choice": "{{choices.text}}",
+        "doc_to_target": "{{choices.label.index(answerKey)}}",
+        "doc_to_text": "Question: {{question}}\nAnswer:",
+        "fewshot_delimiter": "\n\n",
+        "fewshot_indices": null,
+        "gen_prefix": null,
+        "process_docs": null,
+        "sampler": "default",
+        "samples": null,
+        "split": null,
+        "target_delimiter": " "
+      },
+      "fewshot_delimiter": "\n\n",
+      "metadata": {
+        "config_source": "/usr/local/lib/python3.13/dist-packages/lm_eval/tasks/arc/arc_easy.yaml",
+        "version": 1.0
+      },
+      "metric_list": [
+        {
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "metric": "acc"
+        },
+        {
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "metric": "acc_norm"
+        }
+      ],
+      "num_fewshot": 0,
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": true,
+      "target_delimiter": " ",
+      "task": "arc_easy",
+      "test_split": "test",
+      "training_split": "train",
+      "unsafe_code": false,
+      "validation_split": "validation"
+    },
+    "boolq": {
+      "dataset_name": "boolq",
+      "dataset_path": "aps/super_glue",
+      "description": "",
+      "doc_to_choice": [
+        "no",
+        "yes"
+      ],
+      "doc_to_decontamination_query": "passage",
+      "doc_to_target": "label",
+      "doc_to_text": "{{passage}}\nQuestion: {{question}}?\nAnswer:",
+      "fewshot_config": {
+        "doc_to_choice": [
+          "no",
+          "yes"
+        ],
+        "doc_to_target": "label",
+        "doc_to_text": "{{passage}}\nQuestion: {{question}}?\nAnswer:",
+        "fewshot_delimiter": "\n\n",
+        "fewshot_indices": null,
+        "gen_prefix": null,
+        "process_docs": null,
+        "sampler": "default",
+        "samples": null,
+        "split": null,
+        "target_delimiter": " "
+      },
+      "fewshot_delimiter": "\n\n",
+      "metadata": {
+        "config_source": "/usr/local/lib/python3.13/dist-packages/lm_eval/tasks/super_glue/boolq/default.yaml",
+        "version": 2.0
+      },
+      "metric_list": [
+        {
+          "metric": "acc"
+        }
+      ],
+      "num_fewshot": 0,
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": true,
+      "target_delimiter": " ",
+      "task": "boolq",
+      "training_split": "train",
+      "unsafe_code": false,
+      "validation_split": "validation"
+    },
+    "hellaswag": {
+      "dataset_path": "Rowan/hellaswag",
+      "description": "",
+      "doc_to_choice": "choices",
+      "doc_to_target": "{{label}}",
+      "doc_to_text": "{{query}}",
+      "fewshot_config": {
+        "doc_to_choice": "choices",
+        "doc_to_target": "{{label}}",
+        "doc_to_text": "{{query}}",
+        "fewshot_delimiter": "\n\n",
+        "fewshot_indices": null,
+        "gen_prefix": null,
+        "process_docs": "<function process_docs at 0x7e44ec1f0cc0>",
+        "sampler": "default",
+        "samples": null,
+        "split": null,
+        "target_delimiter": " "
+      },
+      "fewshot_delimiter": "\n\n",
+      "metadata": {
+        "config_source": "/usr/local/lib/python3.13/dist-packages/lm_eval/tasks/hellaswag/hellaswag.yaml",
+        "version": 1.0
+      },
+      "metric_list": [
+        {
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "metric": "acc"
+        },
+        {
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "metric": "acc_norm"
+        }
+      ],
+      "num_fewshot": 0,
+      "output_type": "multiple_choice",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "target_delimiter": " ",
+      "task": "hellaswag",
+      "training_split": "train",
+      "unsafe_code": false,
+      "validation_split": "validation"
+    }
+  },
+  "device": "Tesla T4",
+  "hellaswag": {
+    "acc,none": 0.3695478988249353,
+    "acc_norm,none": 0.4556861183031269,
+    "acc_norm_stderr,none": 0.0049701457081877416,
+    "acc_stderr,none": 0.0048169588177261,
+    "alias": "hellaswag",
+    "name": "hellaswag",
+    "sample_len": 10042
+  },
+  "likelihood_seconds": 701.6965612029999,
+  "limit": null,
+  "lm_eval_version": "0.4.13",
+  "model": "/kaggle/input/notebooks/talhama10/pa3-t1-full-l2sp/outputs/task1/full_ft/checkpoints/weights_0625",
+  "peak_mem_gb": 13.634842624,
+  "revision": null,
+  "tasks": "likelihood",
+  "torch": "2.11.0+cu130",
+  "versions": {
+    "arc_easy": 1.0,
+    "boolq": 2.0,
+    "hellaswag": 1.0
+  }
+}

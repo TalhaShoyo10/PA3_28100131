@@ -1,0 +1,7 @@
+suite,outcome,count
+grounding,equals_own_reference,25
+grounding,equals_partner_reference,96
+grounding,neither,7
+vqav2,equals_own_reference,52
+vqav2,equals_partner_reference,101
+vqav2,neither,39

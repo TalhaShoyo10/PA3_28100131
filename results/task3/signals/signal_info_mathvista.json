@@ -1,0 +1,71 @@
+{
+  "N": 32,
+  "confidence_vision_corr_c_v": {
+    "all": {
+      "fraction_positive": 0.12,
+      "mean": -0.2045596074463052,
+      "median": -0.20667683418515131,
+      "n_questions": 1000,
+      "q25": -0.302812249202576,
+      "q75": -0.08593481810630549
+    },
+    "dev": {
+      "fraction_positive": 0.175,
+      "mean": -0.17882251648305927,
+      "median": -0.18453881352764576,
+      "n_questions": 200,
+      "q25": -0.28335869230771416,
+      "q75": -0.04701794712069392
+    },
+    "eval": {
+      "fraction_positive": 0.10625,
+      "mean": -0.21099388018711665,
+      "median": -0.2115446326639862,
+      "n_questions": 800,
+      "q25": -0.30552109031137253,
+      "q75": -0.09386758834557993
+    }
+  },
+  "confidence_vision_corr_k_v": {
+    "all": {
+      "fraction_positive": 0.123,
+      "mean": -0.2038972278669833,
+      "median": -0.20566066856827525,
+      "n_questions": 1000,
+      "q25": -0.30244959637925595,
+      "q75": -0.08492373550907109
+    }
+  },
+  "dataset": "mathvista",
+  "identity_max_abs_error_Ztok_minus_Z_vs_cov": 6.331740687315346e-17,
+  "quartile_size": 8,
+  "trajectory_cases": [
+    {
+      "rollouts": [
+        9,
+        15,
+        18
+      ],
+      "rule": "max_Z_vs_max_Ztok_disagree",
+      "sample_id": "220"
+    },
+    {
+      "rollouts": [
+        2,
+        10,
+        18
+      ],
+      "rule": "rwc_Z_correct_self_consistency_wrong",
+      "sample_id": "643"
+    },
+    {
+      "rollouts": [
+        24,
+        29,
+        30
+      ],
+      "rule": "rwc_Z_wrong_self_consistency_correct",
+      "sample_id": "552"
+    }
+  ]
+}

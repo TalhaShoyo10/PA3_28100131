@@ -1,0 +1,9 @@
+dataset,rule,sample_id,question,gold,sc_answer,sc_support_of_32,sc_correct,rwc_method,rwc_answer,rwc_support_of_32,rwc_correct,pool_fraction_correct
+math,rwc_correct_sc_wrong,test:1787,A pyramid has 6 vertices and 6 faces. How many edges does it have?,10\;\text{edges},12,14,False,rwc_K,10,13,True,0.40625
+math,rwc_correct_sc_wrong,test:1903,"A belt is drawn tightly around three circles of radius $10$ cm each, as shown. The length of the belt, in cm, can be written in the form $a + b\pi$ for rational numbers $a$ and $b$. What is the value of $a + b$? [asy] size(120); defaultpen( ...",80,75,7,False,rwc_K,80,7,True,0.21875
+math,sc_correct_rwc_wrong,test:2198,"Let $g(x) = x^2 - 11x + 30,$ and let $f(x)$ be a polynomial such that \[g(f(x)) = x^4 - 14x^3 + 62x^2 - 91x + 42.\]Find the sum of all possible values of $f(10^{100}).$",11,11,5,True,rwc_K,14,4,False,0.15625
+math,sc_correct_rwc_wrong,test:3113,"Three consecutive prime numbers, each less than $100$, have a sum that is a multiple of 5. What is the greatest possible sum?",235,235,12,True,rwc_K,15,10,False,0.375
+mathvista,rwc_correct_sc_wrong,10,Which object comes next? A. A B. B C. C D. D E. E,E,NO_ANSWER,10,False,rwc_Z,E,8,True,0.25
+mathvista,rwc_correct_sc_wrong,1000,Subtract all brown matte cylinders. Subtract all big purple matte things. How many objects are left?,9,7,9,False,rwc_Z,9,8,True,0.25
+mathvista,sc_correct_rwc_wrong,14,Is the number of tiny objects that are behind the small metal jet less than the number of tiny things left of the tiny sedan? A. Yes B. No,A,A,16,True,rwc_Z,NO_ANSWER,10,False,0.5
+mathvista,sc_correct_rwc_wrong,334,Are there fewer yellow metal tandem bikes in front of the small yellow metallic bicycle than metal bicycles on the left side of the large brown jet? A. Yes B. No,A,A,17,True,rwc_Z,NO_ANSWER,11,False,0.53125

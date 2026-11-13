@@ -1,0 +1,22 @@
+{
+  "math": {
+    "math_verify_timeouts": 40,
+    "mean_answer_groups_per_question_excluding_no_answer": 5.488,
+    "no_answer_rows": 521,
+    "questions_with_any_correct": 919,
+    "raw_unparsed_free_form_rows": 0,
+    "rollout_correct_rate": 0.6631875,
+    "rows": 32000,
+    "rows_where_group_grade_differs_from_own_grade": 0,
+    "unparseable_gold_answers": []
+  },
+  "mathvista": {
+    "mean_answer_groups_per_question_excluding_no_answer": 4.4174174174174174,
+    "no_answer_rows": 3032,
+    "questions_with_any_correct": 894,
+    "raw_unparsed_free_form_rows": 1889,
+    "rollout_correct_rate": 0.53646875,
+    "rows": 32000,
+    "rows_where_group_grade_differs_from_own_grade": 0
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "formats": "GSM8K: gsm8k_cot doc_to_text in the non-thinking chat template; HellaSwag: stock lm-eval context, no chat template",
+  "rows": [
+    {
+      "R_math_mean": 0.051212988905350566,
+      "R_math_median": 0.05120784905594379,
+      "R_non_math_mean": 0.026004410427877947,
+      "R_non_math_median": 0.026987108279757064,
+      "condition": "full_ft_625",
+      "delta_source": "fp32 down_proj weights saved at the checkpoint",
+      "layer": 0,
+      "n_math": 32,
+      "n_non_math": 32
+    },
+    {
+      "R_math_mean": 0.05705448011521412,
+      "R_math_median": 0.05707182777981783,
+      "R_non_math_mean": 0.03044384018073565,
+      "R_non_math_median": 0.02974202059117332,
+      "condition": "full_ft_625",
+      "delta_source": "fp32 down_proj weights saved at the checkpoint",
+      "layer": 13,
+      "n_math": 32,
+      "n_non_math": 32
+    },
+    {
+      "R_math_mean": 0.020136999985103543,
+      "R_math_median": 0.019694623135641708,
+      "R_non_math_mean": 0.027881836952117527,
+      "R_non_math_median": 0.028278193274497997,
+      "condition": "full_ft_625",
+      "delta_source": "fp32 down_proj weights saved at the checkpoint",
+      "layer": 27,
+      "n_math": 32,
+      "n_non_math": 32
+    },
+    {
+      "R_math_mean": 0.052910299413094546,
+      "R_math_median": 0.05288248000504223,
+      "R_non_math_mean": 0.026912694829235133,
+      "R_non_math_median": 0.027896887297424892,
+      "condition": "full_ft_1250",
+      "delta_source": "fp32 down_proj weights saved at the checkpoint",
+      "layer": 0,
+      "n_math": 32,
+      "n_non_math": 32
+    },
+    {
+      "R_math_mean": 0.05746419769859405,
+      "R_math_median": 0.05745681084849149,
+      "R_non_math_mean": 0.0310607661329574,
+      "R_non_math_median": 0.030434733806919575,
+      "condition": "full_ft_1250",
+      "delta_source": "fp32 down_proj weights saved at the checkpoint",
+      "layer": 13,
+      "n_math": 32,
+      "n_non_math": 32
+    },
+    {
+      "R_math_mean": 0.020080561408544695,
+      "R_math_median": 0.01963068660126637,
+      "R_non_math_mean": 0.028290381758880982,
+      "R_non_math_median": 0.02884916159498299,
+      "condition": "full_ft_1250",
+      "delta_source": "fp32 down_proj weights saved at the checkpoint",
+      "layer": 27,
+      "n_math": 32,
+      "n_non_math": 32
+    },
+    {
+      "R_math_mean": 0.0448464118657661,
+      "R_math_median": 0.0448192841022878,
+      "R_non_math_mean": 0.02305104490127803,
+      "R_non_math_median": 0.023985248033369592,
+      "condition": "l2sp_1250",
+      "delta_source": "fp32 down_proj weights saved at the checkpoint",
+      "layer": 0,
+      "n_math": 32,
+      "n_non_math": 32
+    },
+    {
+      "R_math_mean": 0.04772034127148489,
+      "R_math_median": 0.04767134038361566,
+      "R_non_math_mean": 0.027848989009861484,
+      "R_non_math_median": 0.02737420817755409,
+      "condition": "l2sp_1250",
+      "delta_source": "fp32 down_proj weights saved at the checkpoint",
+      "layer": 13,
+      "n_math": 32,
+      "n_non_math": 32
+    },
+    {
+      "R_math_mean": 0.018927526657982568,
+      "R_math_median": 0.018661106648818628,
+      "R_non_math_mean": 0.025533144071022543,
+      "R_non_math_median": 0.025920154357289858,
+      "condition": "l2sp_1250",
+      "delta_source": "fp32 down_proj weights saved at the checkpoint",
+      "layer": 27,
+      "n_math": 32,
+      "n_non_math": 32
+    },
+    {
+      "R_math_mean": 0.06234020413566046,
+      "R_math_median": 0.062304405237726894,
+      "R_non_math_mean": 0.015028494981834542,
+      "R_non_math_median": 0.01642993015875592,
+      "condition": "lora_r4",
+      "delta_source": "fp32 exported factors, projected=False",
+      "layer": 0,
+      "n_math": 32,
+      "n_non_math": 32
+    },
+    {
+      "R_math_mean": 0.09784831695409049,
+      "R_math_median": 0.0975465571003537,
+      "R_non_math_mean": 0.014073368786614412,
+      "R_non_math_median": 0.013026335866587083,
+      "condition": "lora_r4",
+      "delta_source": "fp32 exported factors, projected=False",
+      "layer": 13,
+      "n_math": 32,
+      "n_non_math": 32
+    },
+    {
+      "R_math_mean": 0.005144567945814553,
+      "R_math_median": 0.0048275090687453824,
+      "R_non_math_mean": 0.006054468890862924,
+      "R_non_math_median": 0.006684363538742457,
+      "condition": "lora_r4",
+      "delta_source": "fp32 exported factors, projected=False",
+      "layer": 27,
+      "n_math": 32,
+      "n_non_math": 32
+    },
+    {
+      "R_math_mean": 0.04389118329513701,
+      "R_math_median": 0.04373722560539578,
+      "R_non_math_mean": 0.027167021088354656,
+      "R_non_math_median": 0.03055137556869534,
+      "condition": "lora_r16",
+      "delta_source": "fp32 exported factors, projected=False",
+      "layer": 0,
+      "n_math": 32,
+      "n_non_math": 32
+    },
+    {
+      "R_math_mean": 0.05990664504703309,
+      "R_math_median": 0.059854009022417734,
+      "R_non_math_mean": 0.025118162611642847,
+      "R_non_math_median": 0.023906763992664455,
+      "condition": "lora_r16",
+      "delta_source": "fp32 exported factors, projected=False",
+      "layer": 13,
+      "n_math": 32,
+      "n_non_math": 32
+    },
+    {
+      "R_math_mean": 0.00987294908271588,
+      "R_math_median": 0.009787888783360848,
+      "R_non_math_mean": 0.014173065164125856,
+      "R_non_math_median": 0.01476039737870121,
+      "condition": "lora_r16",
+      "delta_source": "fp32 exported factors, projected=False",
+      "layer": 27,
+      "n_math": 32,
+      "n_non_math": 32
+    },
+    {
+      "R_math_mean": 0.060653670098715154,
+      "R_math_median": 0.060787230581662535,
+      "R_non_math_mean": 0.03156278910960796,
+      "R_non_math_median": 0.03473520110486945,
+      "condition": "oplora_r16",
+      "delta_source": "fp32 exported factors, projected=True",
+      "layer": 0,
+      "n_math": 32,
+      "n_non_math": 32
+    },
+    {
+      "R_math_mean": 0.06396565464325513,
+      "R_math_median": 0.06377634534015773,
+      "R_non_math_mean": 0.02764937256839652,
+      "R_non_math_median": 0.02570174081486544,
+      "condition": "oplora_r16",
+      "delta_source": "fp32 exported factors, projected=True",
+      "layer": 13,
+      "n_math": 32,
+      "n_non_math": 32
+    },
+    {
+      "R_math_mean": 0.009459560153068395,
+      "R_math_median": 0.009238444762452721,
+      "R_non_math_mean": 0.014584119744657287,
+      "R_non_math_median": 0.014814242025641753,
+      "condition": "oplora_r16",
+      "delta_source": "fp32 exported factors, projected=True",
+      "layer": 27,
+      "n_math": 32,
+      "n_non_math": 32
+    }
+  ],
+  "token": "last prompt token (no padding: one prompt per forward)",
+  "z_source": "base model, forward pre-hook on mlp.down_proj input"
+}

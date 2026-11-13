@@ -1,0 +1,8 @@
+{
+  "connector_init_mean_norm": 15.89652156829834,
+  "n_caption_examples": 2000,
+  "n_images": 256,
+  "output_scale": 0.05049843086247041,
+  "rule": "output_scale = mean per-token L2 norm of Qwen input embeddings over the full token sequences of the first n training caption examples / mean per-token L2 norm of the freshly initialized connector output over the first n training-caption images (sorted ids); fixed for the whole run",
+  "text_embedding_mean_norm": 0.8027493953704834
+}

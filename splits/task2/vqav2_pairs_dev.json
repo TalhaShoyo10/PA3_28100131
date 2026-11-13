@@ -1,0 +1,1516 @@
+{
+  "images": "val2014",
+  "n_pairs": 32,
+  "pairs": [
+    {
+      "answer_type": "yes/no",
+      "items": [
+        {
+          "answers": [
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "consensus": "yes",
+          "consensus_count": 10,
+          "image_id": 198612,
+          "question": "Is the dog looking at the camera?",
+          "question_id": 198612000,
+          "target": "yes"
+        },
+        {
+          "answers": [
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no"
+          ],
+          "consensus": "no",
+          "consensus_count": 10,
+          "image_id": 285212,
+          "question": "Is the dog looking at the camera?",
+          "question_id": 285212002,
+          "target": "no"
+        }
+      ],
+      "pair_id": "198612000_285212002",
+      "question": "Is the dog looking at the camera?"
+    },
+    {
+      "answer_type": "yes/no",
+      "items": [
+        {
+          "answers": [
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "no",
+            "no"
+          ],
+          "consensus": "no",
+          "consensus_count": 9,
+          "image_id": 555387,
+          "question": "Do these vegetable grow on top of the ground?",
+          "question_id": 555387002,
+          "target": "no"
+        },
+        {
+          "answers": [
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no"
+          ],
+          "consensus": "yes",
+          "consensus_count": 9,
+          "image_id": 358427,
+          "question": "Do these vegetable grow on top of the ground?",
+          "question_id": 358427009,
+          "target": "yes"
+        }
+      ],
+      "pair_id": "555387002_358427009",
+      "question": "Do these vegetable grow on top of the ground?"
+    },
+    {
+      "answer_type": "yes/no",
+      "items": [
+        {
+          "answers": [
+            "no",
+            "no",
+            "no",
+            "no",
+            "i don't know",
+            "no",
+            "no",
+            "yes",
+            "no",
+            "no"
+          ],
+          "consensus": "no",
+          "consensus_count": 8,
+          "image_id": 124462,
+          "question": "Are the car mirrors always like they are now?",
+          "question_id": 124462000,
+          "target": "no"
+        },
+        {
+          "answers": [
+            "yes",
+            "yes",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "consensus": "yes",
+          "consensus_count": 9,
+          "image_id": 354537,
+          "question": "Are the car mirrors always like they are now?",
+          "question_id": 354537006,
+          "target": "yes"
+        }
+      ],
+      "pair_id": "124462000_354537006",
+      "question": "Are the car mirrors always like they are now?"
+    },
+    {
+      "answer_type": "yes/no",
+      "items": [
+        {
+          "answers": [
+            "yes",
+            "yes",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "consensus": "yes",
+          "consensus_count": 8,
+          "image_id": 513778,
+          "question": "Are there mountains behind the giraffe?",
+          "question_id": 513778003,
+          "target": "yes"
+        },
+        {
+          "answers": [
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no"
+          ],
+          "consensus": "no",
+          "consensus_count": 10,
+          "image_id": 443006,
+          "question": "Are there mountains behind the giraffe?",
+          "question_id": 443006004,
+          "target": "no"
+        }
+      ],
+      "pair_id": "513778003_443006004",
+      "question": "Are there mountains behind the giraffe?"
+    },
+    {
+      "answer_type": "yes/no",
+      "items": [
+        {
+          "answers": [
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no"
+          ],
+          "consensus": "yes",
+          "consensus_count": 9,
+          "image_id": 561578,
+          "question": "Does the tower have a flag on the top?",
+          "question_id": 561578001,
+          "target": "yes"
+        },
+        {
+          "answers": [
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no"
+          ],
+          "consensus": "no",
+          "consensus_count": 10,
+          "image_id": 74000,
+          "question": "Does the tower have a flag on the top?",
+          "question_id": 74000006,
+          "target": "no"
+        }
+      ],
+      "pair_id": "561578001_74000006",
+      "question": "Does the tower have a flag on the top?"
+    },
+    {
+      "answer_type": "yes/no",
+      "items": [
+        {
+          "answers": [
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "consensus": "yes",
+          "consensus_count": 10,
+          "image_id": 458861,
+          "question": "Is this a dangerous activity?",
+          "question_id": 458861001,
+          "target": "yes"
+        },
+        {
+          "answers": [
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no"
+          ],
+          "consensus": "no",
+          "consensus_count": 10,
+          "image_id": 390147,
+          "question": "Is this a dangerous activity?",
+          "question_id": 390147017,
+          "target": "no"
+        }
+      ],
+      "pair_id": "458861001_390147017",
+      "question": "Is this a dangerous activity?"
+    },
+    {
+      "answer_type": "yes/no",
+      "items": [
+        {
+          "answers": [
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "consensus": "yes",
+          "consensus_count": 9,
+          "image_id": 461278,
+          "question": "Are there flowers in the yard?",
+          "question_id": 461278000,
+          "target": "yes"
+        },
+        {
+          "answers": [
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no"
+          ],
+          "consensus": "no",
+          "consensus_count": 10,
+          "image_id": 211047,
+          "question": "Are there flowers in the yard?",
+          "question_id": 211047002,
+          "target": "no"
+        }
+      ],
+      "pair_id": "461278000_211047002",
+      "question": "Are there flowers in the yard?"
+    },
+    {
+      "answer_type": "yes/no",
+      "items": [
+        {
+          "answers": [
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "consensus": "yes",
+          "consensus_count": 9,
+          "image_id": 568690,
+          "question": "Is there butterflies on the shower curtain?",
+          "question_id": 568690001,
+          "target": "yes"
+        },
+        {
+          "answers": [
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no"
+          ],
+          "consensus": "no",
+          "consensus_count": 10,
+          "image_id": 93116,
+          "question": "Is there butterflies on the shower curtain?",
+          "question_id": 93116007,
+          "target": "no"
+        }
+      ],
+      "pair_id": "568690001_93116007",
+      "question": "Is there butterflies on the shower curtain?"
+    },
+    {
+      "answer_type": "yes/no",
+      "items": [
+        {
+          "answers": [
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "consensus": "yes",
+          "consensus_count": 10,
+          "image_id": 166664,
+          "question": "Is the elephant swishing its tail?",
+          "question_id": 166664003,
+          "target": "yes"
+        },
+        {
+          "answers": [
+            "no",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no"
+          ],
+          "consensus": "no",
+          "consensus_count": 9,
+          "image_id": 300979,
+          "question": "Is the elephant swishing its tail?",
+          "question_id": 300979001,
+          "target": "no"
+        }
+      ],
+      "pair_id": "166664003_300979001",
+      "question": "Is the elephant swishing its tail?"
+    },
+    {
+      "answer_type": "yes/no",
+      "items": [
+        {
+          "answers": [
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "consensus": "yes",
+          "consensus_count": 10,
+          "image_id": 410097,
+          "question": "Is there enough wool here to make a nice sweater?",
+          "question_id": 410097000,
+          "target": "yes"
+        },
+        {
+          "answers": [
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no"
+          ],
+          "consensus": "no",
+          "consensus_count": 10,
+          "image_id": 292384,
+          "question": "Is there enough wool here to make a nice sweater?",
+          "question_id": 292384000,
+          "target": "no"
+        }
+      ],
+      "pair_id": "410097000_292384000",
+      "question": "Is there enough wool here to make a nice sweater?"
+    },
+    {
+      "answer_type": "yes/no",
+      "items": [
+        {
+          "answers": [
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "no",
+            "no",
+            "yes"
+          ],
+          "consensus": "no",
+          "consensus_count": 8,
+          "image_id": 267434,
+          "question": "Are the cows eating grass?",
+          "question_id": 267434001,
+          "target": "no"
+        },
+        {
+          "answers": [
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "consensus": "yes",
+          "consensus_count": 10,
+          "image_id": 567253,
+          "question": "Are the cows eating grass?",
+          "question_id": 567253008,
+          "target": "yes"
+        }
+      ],
+      "pair_id": "267434001_567253008",
+      "question": "Are the cows eating grass?"
+    },
+    {
+      "answer_type": "yes/no",
+      "items": [
+        {
+          "answers": [
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no"
+          ],
+          "consensus": "no",
+          "consensus_count": 10,
+          "image_id": 161820,
+          "question": "Are these ripe?",
+          "question_id": 161820001,
+          "target": "no"
+        },
+        {
+          "answers": [
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "consensus": "yes",
+          "consensus_count": 10,
+          "image_id": 127535,
+          "question": "Are these ripe?",
+          "question_id": 127535003,
+          "target": "yes"
+        }
+      ],
+      "pair_id": "161820001_127535003",
+      "question": "Are these ripe?"
+    },
+    {
+      "answer_type": "number",
+      "items": [
+        {
+          "answers": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "0",
+            "2",
+            "2"
+          ],
+          "consensus": "2",
+          "consensus_count": 9,
+          "image_id": 381576,
+          "question": "How many benches?",
+          "question_id": 381576002,
+          "target": "2"
+        },
+        {
+          "answers": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "consensus": "1",
+          "consensus_count": 10,
+          "image_id": 522713,
+          "question": "How many benches?",
+          "question_id": 522713012,
+          "target": "1"
+        }
+      ],
+      "pair_id": "381576002_522713012",
+      "question": "How many benches?"
+    },
+    {
+      "answer_type": "number",
+      "items": [
+        {
+          "answers": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "consensus": "1",
+          "consensus_count": 10,
+          "image_id": 457400,
+          "question": "How many of the books on the bed are open?",
+          "question_id": 457400008,
+          "target": "1"
+        },
+        {
+          "answers": [
+            "0",
+            "0",
+            "no books",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "consensus": "0",
+          "consensus_count": 9,
+          "image_id": 100215,
+          "question": "How many of the books on the bed are open?",
+          "question_id": 100215007,
+          "target": "0"
+        }
+      ],
+      "pair_id": "457400008_100215007",
+      "question": "How many of the books on the bed are open?"
+    },
+    {
+      "answer_type": "number",
+      "items": [
+        {
+          "answers": [
+            "5",
+            "5",
+            "5",
+            "5",
+            "2",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5"
+          ],
+          "consensus": "5",
+          "consensus_count": 9,
+          "image_id": 403774,
+          "question": "How many clocks are pictured on the wall?",
+          "question_id": 403774001,
+          "target": "5"
+        },
+        {
+          "answers": [
+            "1",
+            "1",
+            "2",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "consensus": "1",
+          "consensus_count": 9,
+          "image_id": 361282,
+          "question": "How many clocks are pictured on the wall?",
+          "question_id": 361282002,
+          "target": "1"
+        }
+      ],
+      "pair_id": "403774001_361282002",
+      "question": "How many clocks are pictured on the wall?"
+    },
+    {
+      "answer_type": "number",
+      "items": [
+        {
+          "answers": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "consensus": "3",
+          "consensus_count": 10,
+          "image_id": 568367,
+          "question": "How many cell phones are on the table?",
+          "question_id": 568367002,
+          "target": "3"
+        },
+        {
+          "answers": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "1",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
+          ],
+          "consensus": "2",
+          "consensus_count": 9,
+          "image_id": 226069,
+          "question": "How many cell phones are on the table?",
+          "question_id": 226069002,
+          "target": "2"
+        }
+      ],
+      "pair_id": "568367002_226069002",
+      "question": "How many cell phones are on the table?"
+    },
+    {
+      "answer_type": "number",
+      "items": [
+        {
+          "answers": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "2",
+            "1"
+          ],
+          "consensus": "1",
+          "consensus_count": 9,
+          "image_id": 436456,
+          "question": "How many people have their back turned to the camera?",
+          "question_id": 436456001,
+          "target": "1"
+        },
+        {
+          "answers": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
+          ],
+          "consensus": "2",
+          "consensus_count": 10,
+          "image_id": 447553,
+          "question": "How many people have their back turned to the camera?",
+          "question_id": 447553002,
+          "target": "2"
+        }
+      ],
+      "pair_id": "436456001_447553002",
+      "question": "How many people have their back turned to the camera?"
+    },
+    {
+      "answer_type": "number",
+      "items": [
+        {
+          "answers": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "3",
+            "2",
+            "2",
+            "1"
+          ],
+          "consensus": "2",
+          "consensus_count": 8,
+          "image_id": 181524,
+          "question": "How many traffic lights are there?",
+          "question_id": 181524001,
+          "target": "2"
+        },
+        {
+          "answers": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "consensus": "1",
+          "consensus_count": 10,
+          "image_id": 292394,
+          "question": "How many traffic lights are there?",
+          "question_id": 292394001,
+          "target": "1"
+        }
+      ],
+      "pair_id": "181524001_292394001",
+      "question": "How many traffic lights are there?"
+    },
+    {
+      "answer_type": "number",
+      "items": [
+        {
+          "answers": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
+          ],
+          "consensus": "2",
+          "consensus_count": 10,
+          "image_id": 122281,
+          "question": "How many snowboards are touching the snow?",
+          "question_id": 122281002,
+          "target": "2"
+        },
+        {
+          "answers": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "consensus": "1",
+          "consensus_count": 10,
+          "image_id": 428454,
+          "question": "How many snowboards are touching the snow?",
+          "question_id": 428454003,
+          "target": "1"
+        }
+      ],
+      "pair_id": "122281002_428454003",
+      "question": "How many snowboards are touching the snow?"
+    },
+    {
+      "answer_type": "number",
+      "items": [
+        {
+          "answers": [
+            "500",
+            "500",
+            "500",
+            "500",
+            "500",
+            "500",
+            "500",
+            "500",
+            "500",
+            "500"
+          ],
+          "consensus": "500",
+          "consensus_count": 10,
+          "image_id": 89614,
+          "question": "What number can be seen?",
+          "question_id": 89614001,
+          "target": "500"
+        },
+        {
+          "answers": [
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100"
+          ],
+          "consensus": "100",
+          "consensus_count": 10,
+          "image_id": 247914,
+          "question": "What number can be seen?",
+          "question_id": 247914006,
+          "target": "100"
+        }
+      ],
+      "pair_id": "89614001_247914006",
+      "question": "What number can be seen?"
+    },
+    {
+      "answer_type": "other",
+      "items": [
+        {
+          "answers": [
+            "blue and white",
+            "blue",
+            "blue",
+            "blue",
+            "blue",
+            "blue",
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+          ],
+          "consensus": "blue",
+          "consensus_count": 9,
+          "image_id": 25316,
+          "question": "What is the color of the label?",
+          "question_id": 25316001,
+          "target": "blue"
+        },
+        {
+          "answers": [
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "green"
+          ],
+          "consensus": "white",
+          "consensus_count": 9,
+          "image_id": 308849,
+          "question": "What is the color of the label?",
+          "question_id": 308849010,
+          "target": "white"
+        }
+      ],
+      "pair_id": "25316001_308849010",
+      "question": "What is the color of the label?"
+    },
+    {
+      "answer_type": "other",
+      "items": [
+        {
+          "answers": [
+            "apple",
+            "apple",
+            "apple",
+            "apple",
+            "apple",
+            "apple",
+            "apple",
+            "apple",
+            "apple",
+            "apple"
+          ],
+          "consensus": "apple",
+          "consensus_count": 10,
+          "image_id": 237277,
+          "question": "What fruit in on the table?",
+          "question_id": 237277002,
+          "target": "apple"
+        },
+        {
+          "answers": [
+            "orange",
+            "orange",
+            "orange",
+            "orange",
+            "orange",
+            "orange",
+            "orange",
+            "orange",
+            "orange",
+            "orange"
+          ],
+          "consensus": "orange",
+          "consensus_count": 10,
+          "image_id": 221911,
+          "question": "What fruit in on the table?",
+          "question_id": 221911002,
+          "target": "orange"
+        }
+      ],
+      "pair_id": "237277002_221911002",
+      "question": "What fruit in on the table?"
+    },
+    {
+      "answer_type": "other",
+      "items": [
+        {
+          "answers": [
+            "closed",
+            "closed",
+            "closed",
+            "closed",
+            "closed",
+            "closed",
+            "opened",
+            "closed",
+            "closed",
+            "closed"
+          ],
+          "consensus": "closed",
+          "consensus_count": 9,
+          "image_id": 246263,
+          "question": "Is the lid open or closed?",
+          "question_id": 246263004,
+          "target": "closed"
+        },
+        {
+          "answers": [
+            "open",
+            "open",
+            "open",
+            "open",
+            "open",
+            "open",
+            "open",
+            "open",
+            "open",
+            "open"
+          ],
+          "consensus": "open",
+          "consensus_count": 10,
+          "image_id": 507893,
+          "question": "Is the lid open or closed?",
+          "question_id": 507893012,
+          "target": "open"
+        }
+      ],
+      "pair_id": "246263004_507893012",
+      "question": "Is the lid open or closed?"
+    },
+    {
+      "answer_type": "other",
+      "items": [
+        {
+          "answers": [
+            "night",
+            "night",
+            "night",
+            "night",
+            "night",
+            "night",
+            "night",
+            "night",
+            "night",
+            "night"
+          ],
+          "consensus": "night",
+          "consensus_count": 10,
+          "image_id": 134537,
+          "question": "Is it night or day?",
+          "question_id": 134537001,
+          "target": "night"
+        },
+        {
+          "answers": [
+            "day",
+            "day",
+            "day",
+            "day",
+            "day",
+            "day",
+            "day",
+            "day",
+            "day",
+            "day"
+          ],
+          "consensus": "day",
+          "consensus_count": 10,
+          "image_id": 260433,
+          "question": "Is it night or day?",
+          "question_id": 260433002,
+          "target": "day"
+        }
+      ],
+      "pair_id": "134537001_260433002",
+      "question": "Is it night or day?"
+    },
+    {
+      "answer_type": "other",
+      "items": [
+        {
+          "answers": [
+            "red",
+            "red",
+            "red",
+            "burgundy",
+            "red",
+            "red",
+            "red",
+            "red and yellow",
+            "red",
+            "red"
+          ],
+          "consensus": "red",
+          "consensus_count": 8,
+          "image_id": 437664,
+          "question": "What color is the bedspread?",
+          "question_id": 437664000,
+          "target": "red"
+        },
+        {
+          "answers": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "beige"
+          ],
+          "consensus": "green",
+          "consensus_count": 9,
+          "image_id": 68277,
+          "question": "What color is the bedspread?",
+          "question_id": 68277003,
+          "target": "green"
+        }
+      ],
+      "pair_id": "437664000_68277003",
+      "question": "What color is the bedspread?"
+    },
+    {
+      "answer_type": "other",
+      "items": [
+        {
+          "answers": [
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "gray",
+            "black",
+            "gray",
+            "black"
+          ],
+          "consensus": "black",
+          "consensus_count": 8,
+          "image_id": 7977,
+          "question": "What color is the skateboard?",
+          "question_id": 7977001,
+          "target": "black"
+        },
+        {
+          "answers": [
+            "blue",
+            "blue",
+            "blue",
+            "it is rip-stick, not skateboard",
+            "blue",
+            "blue",
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+          ],
+          "consensus": "blue",
+          "consensus_count": 9,
+          "image_id": 288174,
+          "question": "What color is the skateboard?",
+          "question_id": 288174003,
+          "target": "blue"
+        }
+      ],
+      "pair_id": "7977001_288174003",
+      "question": "What color is the skateboard?"
+    },
+    {
+      "answer_type": "other",
+      "items": [
+        {
+          "answers": [
+            "blonde",
+            "blonde",
+            "blonde",
+            "blonde",
+            "gold",
+            "black",
+            "blonde",
+            "blonde",
+            "blonde",
+            "blonde"
+          ],
+          "consensus": "blonde",
+          "consensus_count": 8,
+          "image_id": 275268,
+          "question": "What color is the child's hair?",
+          "question_id": 275268000,
+          "target": "blonde"
+        },
+        {
+          "answers": [
+            "brown",
+            "brown",
+            "brown",
+            "brown",
+            "brown",
+            "brown",
+            "brown",
+            "brown",
+            "brown",
+            "red"
+          ],
+          "consensus": "brown",
+          "consensus_count": 9,
+          "image_id": 276893,
+          "question": "What color is the child's hair?",
+          "question_id": 276893013,
+          "target": "brown"
+        }
+      ],
+      "pair_id": "275268000_276893013",
+      "question": "What color is the child's hair?"
+    },
+    {
+      "answer_type": "other",
+      "items": [
+        {
+          "answers": [
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "blue",
+            "black",
+            "black",
+            "black"
+          ],
+          "consensus": "black",
+          "consensus_count": 9,
+          "image_id": 455299,
+          "question": "What color is the keyboard?",
+          "question_id": 455299000,
+          "target": "black"
+        },
+        {
+          "answers": [
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white"
+          ],
+          "consensus": "white",
+          "consensus_count": 10,
+          "image_id": 481370,
+          "question": "What color is the keyboard?",
+          "question_id": 481370001,
+          "target": "white"
+        }
+      ],
+      "pair_id": "455299000_481370001",
+      "question": "What color is the keyboard?"
+    },
+    {
+      "answer_type": "other",
+      "items": [
+        {
+          "answers": [
+            "red",
+            "red",
+            "red",
+            "red",
+            "red",
+            "red",
+            "red",
+            "red",
+            "red",
+            "red"
+          ],
+          "consensus": "red",
+          "consensus_count": 10,
+          "image_id": 173080,
+          "question": "What color is the stop light?",
+          "question_id": 173080000,
+          "target": "red"
+        },
+        {
+          "answers": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "consensus": "green",
+          "consensus_count": 10,
+          "image_id": 8762,
+          "question": "What color is the stop light?",
+          "question_id": 8762004,
+          "target": "green"
+        }
+      ],
+      "pair_id": "173080000_8762004",
+      "question": "What color is the stop light?"
+    },
+    {
+      "answer_type": "other",
+      "items": [
+        {
+          "answers": [
+            "soccer",
+            "soccer",
+            "soccer",
+            "soccer",
+            "soccer",
+            "soccer",
+            "soccer",
+            "soccer",
+            "soccer",
+            "soccer"
+          ],
+          "consensus": "soccer",
+          "consensus_count": 10,
+          "image_id": 74951,
+          "question": "What game are the kids playing?",
+          "question_id": 74951003,
+          "target": "soccer"
+        },
+        {
+          "answers": [
+            "frisbee",
+            "frisbee",
+            "frisbee",
+            "frisbee",
+            "frisbee",
+            "frisbee",
+            "frisbee",
+            "frisbee",
+            "frisbee",
+            "frisbee"
+          ],
+          "consensus": "frisbee",
+          "consensus_count": 10,
+          "image_id": 157271,
+          "question": "What game are the kids playing?",
+          "question_id": 157271000,
+          "target": "frisbee"
+        }
+      ],
+      "pair_id": "74951003_157271000",
+      "question": "What game are the kids playing?"
+    },
+    {
+      "answer_type": "other",
+      "items": [
+        {
+          "answers": [
+            "green",
+            "green",
+            "green",
+            "blue and green",
+            "green",
+            "blue, green, white",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "consensus": "green",
+          "consensus_count": 8,
+          "image_id": 555684,
+          "question": "What color is the water?",
+          "question_id": 555684000,
+          "target": "green"
+        },
+        {
+          "answers": [
+            "blue",
+            "blue",
+            "blue",
+            "blue, white",
+            "blue",
+            "dark blue",
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+          ],
+          "consensus": "blue",
+          "consensus_count": 8,
+          "image_id": 51976,
+          "question": "What color is the water?",
+          "question_id": 51976003,
+          "target": "blue"
+        }
+      ],
+      "pair_id": "555684000_51976003",
+      "question": "What color is the water?"
+    },
+    {
+      "answer_type": "other",
+      "items": [
+        {
+          "answers": [
+            "white",
+            "black white",
+            "white",
+            "white",
+            "white",
+            "white",
+            "white, red",
+            "white",
+            "white",
+            "white"
+          ],
+          "consensus": "white",
+          "consensus_count": 8,
+          "image_id": 36522,
+          "question": "What color is the bus?",
+          "question_id": 36522000,
+          "target": "white"
+        },
+        {
+          "answers": [
+            "black",
+            "black",
+            "black",
+            "black, red and white",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black",
+            "black"
+          ],
+          "consensus": "black",
+          "consensus_count": 9,
+          "image_id": 344029,
+          "question": "What color is the bus?",
+          "question_id": 344029006,
+          "target": "black"
+        }
+      ],
+      "pair_id": "36522000_344029006",
+      "question": "What color is the bus?"
+    }
+  ],
+  "split": "dev",
+  "type_counts": {
+    "number": 8,
+    "other": 12,
+    "yes/no": 12
+  }
+}

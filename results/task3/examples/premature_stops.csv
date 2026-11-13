@@ -1,0 +1,9 @@
+dataset,controller,sample_id,question,gold,stopped_at_n,answer_at_stop,leader_count,leader_share_at_stop,rwc_margin,pool_fraction_correct
+math,agreement,test:1153,"How many non-congruent right triangles are there, all of whose sides have positive integer lengths, and one of whose legs (i.e. not the hypotenuse) has length $162$?",4,4,0,2,0.5,0.6666666666666667,0.25
+math,agreement,test:1157,"Suppose we define $\ell(n)$ as follows: If $n$ is an integer from $0$ to $20,$ inclusive, then $\ell(n)$ is the number of letters in the English spelling of the number $n;$ otherwise, $\ell(n)$ is undefined. For example, $\ell(11)=6,$ becau ...",14,4,1,2,0.5,0.3333333333333333,0.1875
+math,quality_aware,test:1153,"How many non-congruent right triangles are there, all of whose sides have positive integer lengths, and one of whose legs (i.e. not the hypotenuse) has length $162$?",4,4,0,2,0.5,0.6666666666666667,0.25
+math,quality_aware,test:1157,"Suppose we define $\ell(n)$ as follows: If $n$ is an integer from $0$ to $20,$ inclusive, then $\ell(n)$ is the number of letters in the English spelling of the number $n;$ otherwise, $\ell(n)$ is undefined. For example, $\ell(11)=6,$ becau ...",14,4,1,2,0.5,0.3333333333333333,0.1875
+mathvista,agreement,183,Subtract all brown cubes. Subtract all gray cylinders. How many objects are left?,4,4,3,3,0.75,1.0,0.5625
+mathvista,agreement,2,what is the total volume of the measuring cup?,1000,4,1000 \text{ ml},3,0.75,0.6666666666666667,0.5625
+mathvista,quality_aware,183,Subtract all brown cubes. Subtract all gray cylinders. How many objects are left?,4,4,3,3,0.75,1.0,0.5625
+mathvista,quality_aware,2,what is the total volume of the measuring cup?,1000,4,1000 \text{ ml},3,0.75,0.6666666666666667,0.5625

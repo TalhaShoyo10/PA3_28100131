@@ -1,0 +1,282 @@
+[
+  {
+    "inputs": [
+      "2^{100}",
+      "\\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^{\\frac{3^{101} - 3}{2}}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "3^{5050}",
+      "\\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^{\\frac{3^{101} - 3}{2}}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "1",
+      "\\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^{\\frac{3^{101} - 3}{2}}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "3^{5050} (2 + \\sqrt{2 + \\sqrt{2}})",
+      "\\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^{\\frac{3^{101} - 3}{2}}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "\\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^{\\frac{3^{101} - 3}{2}}",
+      "a^{5050}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "\\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^{\\frac{3^{101} - 3}{2}}",
+      "3^{5100} \\cdot 2^{50}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "2^{100}",
+      "a^{100} 2^{\\frac{3^{100} - 1}{2}}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "3^{5050}",
+      "a^{100} 2^{\\frac{3^{100} - 1}{2}}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "1",
+      "a^{100} 2^{\\frac{3^{100} - 1}{2}}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "3^{5050} (2 + \\sqrt{2 + \\sqrt{2}})",
+      "a^{100} 2^{\\frac{3^{100} - 1}{2}}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "\\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^{\\frac{3^{101} - 3}{2}}",
+      "a^{100} 2^{\\frac{3^{100} - 1}{2}}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "a^{5050}",
+      "a^{100} 2^{\\frac{3^{100} - 1}{2}}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "3^{5100} \\cdot 2^{50}",
+      "a^{100} 2^{\\frac{3^{100} - 1}{2}}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "\\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^{\\frac{3^{101} - 3}{2}}",
+      "a^{3^{101}} - 3a^{3^{100}}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "a^{100} 2^{\\frac{3^{100} - 1}{2}}",
+      "a^{3^{101}} - 3a^{3^{100}}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "\\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^{\\frac{3^{101} - 3}{2}}",
+      "2^{5150}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "a^{100} 2^{\\frac{3^{100} - 1}{2}}",
+      "2^{5150}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "\\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^{\\frac{3^{101} - 3}{2}}",
+      "a^{3^{100}} - 3a^{3^{99}}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "a^{100} 2^{\\frac{3^{100} - 1}{2}}",
+      "a^{3^{100}} - 3a^{3^{99}}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "\\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^{\\frac{3^{101} - 3}{2}}",
+      "2"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "a^{100} 2^{\\frac{3^{100} - 1}{2}}",
+      "2"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "2^{100}",
+      "(2 + \\sqrt{2 + \\sqrt{2}})^{2525}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "3^{5050}",
+      "(2 + \\sqrt{2 + \\sqrt{2}})^{2525}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "1",
+      "(2 + \\sqrt{2 + \\sqrt{2}})^{2525}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "3^{5050} (2 + \\sqrt{2 + \\sqrt{2}})",
+      "(2 + \\sqrt{2 + \\sqrt{2}})^{2525}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "\\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^{\\frac{3^{101} - 3}{2}}",
+      "(2 + \\sqrt{2 + \\sqrt{2}})^{2525}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "a^{5050}",
+      "(2 + \\sqrt{2 + \\sqrt{2}})^{2525}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "3^{5100} \\cdot 2^{50}",
+      "(2 + \\sqrt{2 + \\sqrt{2}})^{2525}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "a^{100} 2^{\\frac{3^{100} - 1}{2}}",
+      "(2 + \\sqrt{2 + \\sqrt{2}})^{2525}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "a^{3^{101}} - 3a^{3^{100}}",
+      "(2 + \\sqrt{2 + \\sqrt{2}})^{2525}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "2^{5150}",
+      "(2 + \\sqrt{2 + \\sqrt{2}})^{2525}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "a^{3^{100}} - 3a^{3^{99}}",
+      "(2 + \\sqrt{2 + \\sqrt{2}})^{2525}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "2",
+      "(2 + \\sqrt{2 + \\sqrt{2}})^{2525}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "\\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^{\\frac{3^{101} - 3}{2}}",
+      "6^{50} \\cdot 3^{5050}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "\\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^{\\frac{3^{101} - 3}{2}}",
+      "3^{2575.5}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "a^{100} 2^{\\frac{3^{100} - 1}{2}}",
+      "3^{2575.5}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "(2 + \\sqrt{2 + \\sqrt{2}})^{2525}",
+      "3^{2575.5}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "4096 \\sqrt{2}",
+      "\\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^{\\frac{3^{101} - 3}{2}}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "4096 \\sqrt{2}",
+      "a^{100} 2^{\\frac{3^{100} - 1}{2}}"
+    ],
+    "kind": "verify"
+  },
+  {
+    "inputs": [
+      "4096 \\sqrt{2}",
+      "(2 + \\sqrt{2 + \\sqrt{2}})^{2525}"
+    ],
+    "kind": "verify"
+  }
+]

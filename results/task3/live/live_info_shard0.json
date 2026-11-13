@@ -1,0 +1,21 @@
+{
+  "backend": "hf transformers generate",
+  "batch_size": 1,
+  "device": "Tesla T4",
+  "dtype": "float16",
+  "load_s_excluded": 13.344520051000018,
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "num_shards": 2,
+  "peak_mem_gb": 6.628533248,
+  "prompt_format": "system + user(problem + two newlines + suffix), native chat template, add_generation_prompt=True",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "sampling": {
+    "do_sample": true,
+    "repetition_penalty": 1.0,
+    "temperature": 0.7,
+    "top_k": 20,
+    "top_p": 0.8
+  },
+  "shard": 0,
+  "torch": "2.11.0+cu130"
+}

@@ -1,0 +1,12 @@
+{
+  "realized_mixture_counts": {
+    "stage1:caption_pass": 18000,
+    "stage2:caption": 3057,
+    "stage2:counting": 2991,
+    "stage2:presence": 5952,
+    "stage3:caption": 578,
+    "stage3:counting": 624,
+    "stage3:presence": 619,
+    "stage3:vqav2": 4179
+  }
+}

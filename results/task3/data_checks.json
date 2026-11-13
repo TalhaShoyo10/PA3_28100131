@@ -1,0 +1,18 @@
+{
+  "math": {
+    "capped_rollouts": 523,
+    "null_extracted_answers": 521,
+    "questions": 1000,
+    "retained_tokens": 20742094,
+    "rollouts_per_question_all_0_to_31": true,
+    "rows": 32000
+  },
+  "mathvista": {
+    "capped_rollouts": 487,
+    "null_extracted_answers": 3032,
+    "questions": 1000,
+    "retained_tokens": 8961703,
+    "rollouts_per_question_all_0_to_31": true,
+    "rows": 32000
+  }
+}

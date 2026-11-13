@@ -1,0 +1,24 @@
+{
+  "consensus_min": 8,
+  "counting_rule": "count = non-crowd instances with area >= min_area, in 1..4, and no crowd or small instances of that category in the image",
+  "eligible_vqa_pairs": {
+    "train": null,
+    "val": 33925
+  },
+  "grounding_kind_counts": {
+    "dev": {
+      "counting": 12,
+      "presence": 12
+    },
+    "test": {
+      "counting": 32,
+      "presence": 32
+    }
+  },
+  "min_area_px": 1024,
+  "n_dev_images": 208,
+  "n_test_images": 320,
+  "n_train_images": 8874,
+  "presence_rule": "positive: >=1 non-crowd instance with area >= min_area; negative: zero annotations of the category (crowd or small included)",
+  "seed": 6304
+}

@@ -1,0 +1,32 @@
+{
+  "lora_r16": {
+    "check_batch": "first 4 GSM8K probe-set questions, chat template with enable_thinking=False, FP16, non-padding positions",
+    "condition": "lora_r16",
+    "factors_are_projected": false,
+    "max_abs_fp16_rounding_of_merged_minus_w0_vs_delta_w": 0.0003340712282806635,
+    "max_abs_logit_diff_merged_vs_unmerged": 0.16796875,
+    "mean_abs_logit_diff_merged_vs_unmerged": 0.00659236591309309,
+    "scale": 2.0,
+    "weights_dir": "/kaggle/input/notebooks/talhama10/pa3-t1-lora16-t2/outputs/task1/lora_r16/checkpoints/weights_1250"
+  },
+  "lora_r4": {
+    "check_batch": "first 4 GSM8K probe-set questions, chat template with enable_thinking=False, FP16, non-padding positions",
+    "condition": "lora_r4",
+    "factors_are_projected": false,
+    "max_abs_fp16_rounding_of_merged_minus_w0_vs_delta_w": 0.00024282216327264905,
+    "max_abs_logit_diff_merged_vs_unmerged": 0.203125,
+    "mean_abs_logit_diff_merged_vs_unmerged": 0.006542778108268976,
+    "scale": 2.0,
+    "weights_dir": "/kaggle/input/notebooks/talhama10/pa3-t1-lora4-oplora/outputs/task1/lora_r4/checkpoints/weights_1250"
+  },
+  "oplora_r16": {
+    "check_batch": "first 4 GSM8K probe-set questions, chat template with enable_thinking=False, FP16, non-padding positions",
+    "condition": "oplora_r16",
+    "factors_are_projected": true,
+    "max_abs_fp16_rounding_of_merged_minus_w0_vs_delta_w": 0.00046322232810780406,
+    "max_abs_logit_diff_merged_vs_unmerged": 0.140625,
+    "mean_abs_logit_diff_merged_vs_unmerged": 0.00660634133964777,
+    "scale": 2.0,
+    "weights_dir": "/kaggle/input/notebooks/talhama10/pa3-t1-lora4-oplora/outputs/task1/oplora_r16/checkpoints/weights_1250"
+  }
+}

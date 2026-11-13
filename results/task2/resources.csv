@@ -1,0 +1,7 @@
+item,trainable_params,hours,updates,weights_bytes,peak_mem_gb,device
+training stage 1,1837056.0,0.9222096275069445,2250.0,7351098.0,,Tesla T4
+training stage 2,6424576.0,0.5932860274177775,1500.0,25765494.0,,Tesla T4
+training stage 3,6424576.0,0.3266916386333335,750.0,25765494.0,,Tesla T4
+training total (incl. dev evals),,1.8555122220638889,4500.0,,1.681018368,Tesla T4
+feature caching (separate session),,1.0551392551572223,,,,cpu
+final evaluation generation,,,,,1.588814336,Tesla T4

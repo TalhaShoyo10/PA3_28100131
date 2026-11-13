@@ -1,0 +1,8 @@
+<|im_start|>user
+<<IMAGE>>
+<<QUESTION>><|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+

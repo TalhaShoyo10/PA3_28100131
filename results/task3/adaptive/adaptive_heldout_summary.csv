@@ -1,0 +1,13 @@
+dataset,policy,tau,gamma,accuracy,mean_token_cost,mean_rollouts,stop_frac_n4,stop_frac_n8,stop_frac_n16,stop_frac_n32,n_questions,selected_family
+math,fixed_4_self_consistency,,,0.6951249999999999,2666.222,4.0,1.0,0.0,0.0,0.0,800,
+math,fixed_8_self_consistency,,,0.71675,5333.161375,8.0,0.0,1.0,0.0,0.0,800,
+math,fixed_16_self_consistency,,,0.7326250000000001,10667.647375,16.0,0.0,0.0,1.0,0.0,800,
+math,fixed_32_self_consistency,,,0.738125,21347.0175,32.0,0.0,0.0,0.0,1.0,800,
+math,adaptive_agreement,0.5,,0.726375,6697.050375,7.9014999999999995,0.822875,0.03925,0.00725,0.130625,800,agreement
+math,adaptive_quality_aware,0.5,0.0,0.733125,7491.135375,8.8285,0.770125,0.05925,0.011625,0.159,800,quality_aware
+mathvista,fixed_4_self_consistency,,,0.5830000000000001,1109.372875,4.0,1.0,0.0,0.0,0.0,800,
+mathvista,fixed_8_self_consistency,,,0.6076250000000001,2229.581,8.0,0.0,1.0,0.0,0.0,800,
+mathvista,fixed_16_self_consistency,,,0.6247499999999999,4454.637874999999,16.0,0.0,0.0,1.0,0.0,800,
+mathvista,fixed_32_self_consistency,,,0.6315000000000001,8897.7575,32.0,0.0,0.0,0.0,1.0,800,
+mathvista,adaptive_agreement,0.625,,0.6325,4582.036999999999,13.624,0.573,0.08375,0.020125,0.323125,800,agreement
+mathvista,adaptive_quality_aware,0.625,0.0,0.632,4651.141,13.855,0.56,0.087375,0.023,0.329625,800,quality_aware

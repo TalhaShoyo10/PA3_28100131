@@ -1,0 +1,5 @@
+suite,condition,n_questions,accuracy,pair_accuracy,identical_answer_rate,empty_answer_rate,mean_ref_nll,gen_s_per_answer,accuracy_counting,accuracy_presence,accuracy_number,accuracy_other,accuracy_yes/no
+grounding,complementary,128,0.1953125,0.03125,0.328125,0.0,3.0127084495870804,0.03346762832811834,0.3125,0.078125,,,
+grounding,correct,128,0.75,0.5625,0.328125,0.0,0.6711557284600076,0.033807756562509894,0.578125,0.921875,,,
+grounding,mismatched,128,0.4375,0.078125,0.6875,0.0,1.591827242466934,0.03387511832810475,0.375,0.5,,,
+grounding,none,128,0.0,0.0,1.0,0.0,6.05516461096704,0.121859401335918,0.0,0.0,,,

@@ -1,0 +1,12 @@
+{
+  "cost_accounting": "refine charges the shared initial response (parallel call 1) plus the full revision prompt and all critique/revision output tokens; parallel also includes that same call",
+  "parallel_call_extraction_rate": 0.7866666666666666,
+  "parallel_call_truncation_rate": 0.21333333333333335,
+  "transitions_vs_shared_initial": {
+    "C->C": 28,
+    "C->W": 1,
+    "W->C": 3,
+    "W->W": 18
+  },
+  "verify_timeouts": 0
+}

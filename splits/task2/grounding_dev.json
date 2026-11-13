@@ -1,0 +1,515 @@
+{
+  "images": "val2014",
+  "kind_counts": {
+    "counting": 12,
+    "presence": 12
+  },
+  "n_pairs": 24,
+  "pairs": [
+    {
+      "category": "sandwich",
+      "category_id": 54,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 316917,
+          "question": "Does this image contain a sandwich?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 580796,
+          "question": "Does this image contain a sandwich?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_54_316917_580796",
+      "question": "Does this image contain a sandwich?"
+    },
+    {
+      "category": "kite",
+      "category_id": 38,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 392493,
+          "question": "Does this image contain a kite?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 514241,
+          "question": "Does this image contain a kite?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_38_392493_514241",
+      "question": "Does this image contain a kite?"
+    },
+    {
+      "category": "truck",
+      "category_id": 8,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 422870,
+          "question": "Does this image contain a truck?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 522880,
+          "question": "Does this image contain a truck?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_8_422870_522880",
+      "question": "Does this image contain a truck?"
+    },
+    {
+      "category": "fork",
+      "category_id": 48,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 448600,
+          "question": "Does this image contain a fork?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 34137,
+          "question": "Does this image contain a fork?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_48_448600_34137",
+      "question": "Does this image contain a fork?"
+    },
+    {
+      "category": "cell phone",
+      "category_id": 77,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 562870,
+          "question": "Does this image contain a cell phone?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 453757,
+          "question": "Does this image contain a cell phone?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_77_562870_453757",
+      "question": "Does this image contain a cell phone?"
+    },
+    {
+      "category": "handbag",
+      "category_id": 31,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 194704,
+          "question": "Does this image contain a handbag?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 45882,
+          "question": "Does this image contain a handbag?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_31_194704_45882",
+      "question": "Does this image contain a handbag?"
+    },
+    {
+      "category": "skis",
+      "category_id": 35,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 483234,
+          "question": "Does this image contain a skis?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 395283,
+          "question": "Does this image contain a skis?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_35_483234_395283",
+      "question": "Does this image contain a skis?"
+    },
+    {
+      "category": "bottle",
+      "category_id": 44,
+      "items": [
+        {
+          "annotated_count": 2,
+          "image_id": 472478,
+          "question": "Does this image contain a bottle?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 33123,
+          "question": "Does this image contain a bottle?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_44_472478_33123",
+      "question": "Does this image contain a bottle?"
+    },
+    {
+      "category": "frisbee",
+      "category_id": 34,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 275542,
+          "question": "Does this image contain a frisbee?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 119075,
+          "question": "Does this image contain a frisbee?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_34_275542_119075",
+      "question": "Does this image contain a frisbee?"
+    },
+    {
+      "category": "airplane",
+      "category_id": 5,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 286202,
+          "question": "Does this image contain an airplane?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 115752,
+          "question": "Does this image contain an airplane?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_5_286202_115752",
+      "question": "Does this image contain an airplane?"
+    },
+    {
+      "category": "airplane",
+      "category_id": 5,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 162998,
+          "question": "Does this image contain an airplane?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 125412,
+          "question": "Does this image contain an airplane?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_5_162998_125412",
+      "question": "Does this image contain an airplane?"
+    },
+    {
+      "category": "frisbee",
+      "category_id": 34,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 124387,
+          "question": "Does this image contain a frisbee?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 227879,
+          "question": "Does this image contain a frisbee?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_34_124387_227879",
+      "question": "Does this image contain a frisbee?"
+    },
+    {
+      "category": "toothbrush",
+      "category_id": 90,
+      "items": [
+        {
+          "annotated_count": 2,
+          "image_id": 245112,
+          "question": "How many toothbrushes can you see?",
+          "target": "2"
+        },
+        {
+          "annotated_count": 1,
+          "image_id": 547222,
+          "question": "How many toothbrushes can you see?",
+          "target": "1"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_90_245112_547222",
+      "question": "How many toothbrushes can you see?"
+    },
+    {
+      "category": "umbrella",
+      "category_id": 28,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 178254,
+          "question": "How many umbrellas can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 428985,
+          "question": "How many umbrellas can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_28_178254_428985",
+      "question": "How many umbrellas can you see?"
+    },
+    {
+      "category": "bear",
+      "category_id": 23,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 372855,
+          "question": "How many bears can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 495199,
+          "question": "How many bears can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_23_372855_495199",
+      "question": "How many bears can you see?"
+    },
+    {
+      "category": "sports ball",
+      "category_id": 37,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 563541,
+          "question": "How many sports balls can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 383406,
+          "question": "How many sports balls can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_37_563541_383406",
+      "question": "How many sports balls can you see?"
+    },
+    {
+      "category": "dining table",
+      "category_id": 67,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 313162,
+          "question": "How many dining tables can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 506441,
+          "question": "How many dining tables can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_67_313162_506441",
+      "question": "How many dining tables can you see?"
+    },
+    {
+      "category": "handbag",
+      "category_id": 31,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 279331,
+          "question": "How many handbags can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 330053,
+          "question": "How many handbags can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_31_279331_330053",
+      "question": "How many handbags can you see?"
+    },
+    {
+      "category": "tie",
+      "category_id": 32,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 572850,
+          "question": "How many ties can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 113019,
+          "question": "How many ties can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_32_572850_113019",
+      "question": "How many ties can you see?"
+    },
+    {
+      "category": "cake",
+      "category_id": 61,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 564058,
+          "question": "How many cakes can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 3,
+          "image_id": 106736,
+          "question": "How many cakes can you see?",
+          "target": "3"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_61_564058_106736",
+      "question": "How many cakes can you see?"
+    },
+    {
+      "category": "baseball bat",
+      "category_id": 39,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 543570,
+          "question": "How many baseball bats can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 125404,
+          "question": "How many baseball bats can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_39_543570_125404",
+      "question": "How many baseball bats can you see?"
+    },
+    {
+      "category": "fire hydrant",
+      "category_id": 11,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 531970,
+          "question": "How many fire hydrants can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 575012,
+          "question": "How many fire hydrants can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_11_531970_575012",
+      "question": "How many fire hydrants can you see?"
+    },
+    {
+      "category": "fork",
+      "category_id": 48,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 20650,
+          "question": "How many forks can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 580791,
+          "question": "How many forks can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_48_20650_580791",
+      "question": "How many forks can you see?"
+    },
+    {
+      "category": "baseball glove",
+      "category_id": 40,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 457538,
+          "question": "How many baseball gloves can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 131280,
+          "question": "How many baseball gloves can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_40_457538_131280",
+      "question": "How many baseball gloves can you see?"
+    }
+  ],
+  "split": "dev"
+}

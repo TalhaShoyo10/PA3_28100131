@@ -1,0 +1,1355 @@
+{
+  "images": "val2014",
+  "kind_counts": {
+    "counting": 32,
+    "presence": 32
+  },
+  "n_pairs": 64,
+  "pairs": [
+    {
+      "category": "wine glass",
+      "category_id": 46,
+      "items": [
+        {
+          "annotated_count": 9,
+          "image_id": 331395,
+          "question": "Does this image contain a wine glass?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 478338,
+          "question": "Does this image contain a wine glass?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_46_331395_478338",
+      "question": "Does this image contain a wine glass?"
+    },
+    {
+      "category": "truck",
+      "category_id": 8,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 504516,
+          "question": "Does this image contain a truck?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 233968,
+          "question": "Does this image contain a truck?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_8_504516_233968",
+      "question": "Does this image contain a truck?"
+    },
+    {
+      "category": "umbrella",
+      "category_id": 28,
+      "items": [
+        {
+          "annotated_count": 2,
+          "image_id": 20774,
+          "question": "Does this image contain an umbrella?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 561336,
+          "question": "Does this image contain an umbrella?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_28_20774_561336",
+      "question": "Does this image contain an umbrella?"
+    },
+    {
+      "category": "frisbee",
+      "category_id": 34,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 25984,
+          "question": "Does this image contain a frisbee?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 356660,
+          "question": "Does this image contain a frisbee?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_34_25984_356660",
+      "question": "Does this image contain a frisbee?"
+    },
+    {
+      "category": "cat",
+      "category_id": 17,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 401112,
+          "question": "Does this image contain a cat?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 17379,
+          "question": "Does this image contain a cat?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_17_401112_17379",
+      "question": "Does this image contain a cat?"
+    },
+    {
+      "category": "bed",
+      "category_id": 65,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 69512,
+          "question": "Does this image contain a bed?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 139992,
+          "question": "Does this image contain a bed?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_65_69512_139992",
+      "question": "Does this image contain a bed?"
+    },
+    {
+      "category": "laptop",
+      "category_id": 73,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 93852,
+          "question": "Does this image contain a laptop?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 564132,
+          "question": "Does this image contain a laptop?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_73_93852_564132",
+      "question": "Does this image contain a laptop?"
+    },
+    {
+      "category": "sandwich",
+      "category_id": 54,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 22492,
+          "question": "Does this image contain a sandwich?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 195269,
+          "question": "Does this image contain a sandwich?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_54_22492_195269",
+      "question": "Does this image contain a sandwich?"
+    },
+    {
+      "category": "banana",
+      "category_id": 52,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 466787,
+          "question": "Does this image contain a banana?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 348931,
+          "question": "Does this image contain a banana?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_52_466787_348931",
+      "question": "Does this image contain a banana?"
+    },
+    {
+      "category": "tv",
+      "category_id": 72,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 467257,
+          "question": "Does this image contain a tv?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 157771,
+          "question": "Does this image contain a tv?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_72_467257_157771",
+      "question": "Does this image contain a tv?"
+    },
+    {
+      "category": "toaster",
+      "category_id": 80,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 28506,
+          "question": "Does this image contain a toaster?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 153782,
+          "question": "Does this image contain a toaster?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_80_28506_153782",
+      "question": "Does this image contain a toaster?"
+    },
+    {
+      "category": "toaster",
+      "category_id": 80,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 353398,
+          "question": "Does this image contain a toaster?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 535259,
+          "question": "Does this image contain a toaster?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_80_353398_535259",
+      "question": "Does this image contain a toaster?"
+    },
+    {
+      "category": "cow",
+      "category_id": 21,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 524575,
+          "question": "Does this image contain a cow?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 566672,
+          "question": "Does this image contain a cow?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_21_524575_566672",
+      "question": "Does this image contain a cow?"
+    },
+    {
+      "category": "teddy bear",
+      "category_id": 88,
+      "items": [
+        {
+          "annotated_count": 2,
+          "image_id": 275898,
+          "question": "Does this image contain a teddy bear?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 321861,
+          "question": "Does this image contain a teddy bear?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_88_275898_321861",
+      "question": "Does this image contain a teddy bear?"
+    },
+    {
+      "category": "broccoli",
+      "category_id": 56,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 243104,
+          "question": "Does this image contain a broccoli?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 147128,
+          "question": "Does this image contain a broccoli?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_56_243104_147128",
+      "question": "Does this image contain a broccoli?"
+    },
+    {
+      "category": "frisbee",
+      "category_id": 34,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 321810,
+          "question": "Does this image contain a frisbee?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 175737,
+          "question": "Does this image contain a frisbee?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_34_321810_175737",
+      "question": "Does this image contain a frisbee?"
+    },
+    {
+      "category": "apple",
+      "category_id": 53,
+      "items": [
+        {
+          "annotated_count": 7,
+          "image_id": 567444,
+          "question": "Does this image contain an apple?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 477112,
+          "question": "Does this image contain an apple?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_53_567444_477112",
+      "question": "Does this image contain an apple?"
+    },
+    {
+      "category": "skateboard",
+      "category_id": 41,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 346275,
+          "question": "Does this image contain a skateboard?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 112022,
+          "question": "Does this image contain a skateboard?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_41_346275_112022",
+      "question": "Does this image contain a skateboard?"
+    },
+    {
+      "category": "kite",
+      "category_id": 38,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 357238,
+          "question": "Does this image contain a kite?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 189885,
+          "question": "Does this image contain a kite?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_38_357238_189885",
+      "question": "Does this image contain a kite?"
+    },
+    {
+      "category": "traffic light",
+      "category_id": 10,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 252292,
+          "question": "Does this image contain a traffic light?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 116589,
+          "question": "Does this image contain a traffic light?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_10_252292_116589",
+      "question": "Does this image contain a traffic light?"
+    },
+    {
+      "category": "umbrella",
+      "category_id": 28,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 242510,
+          "question": "Does this image contain an umbrella?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 324436,
+          "question": "Does this image contain an umbrella?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_28_242510_324436",
+      "question": "Does this image contain an umbrella?"
+    },
+    {
+      "category": "donut",
+      "category_id": 60,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 100553,
+          "question": "Does this image contain a donut?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 341409,
+          "question": "Does this image contain a donut?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_60_100553_341409",
+      "question": "Does this image contain a donut?"
+    },
+    {
+      "category": "orange",
+      "category_id": 55,
+      "items": [
+        {
+          "annotated_count": 9,
+          "image_id": 498919,
+          "question": "Does this image contain an orange?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 455666,
+          "question": "Does this image contain an orange?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_55_498919_455666",
+      "question": "Does this image contain an orange?"
+    },
+    {
+      "category": "donut",
+      "category_id": 60,
+      "items": [
+        {
+          "annotated_count": 3,
+          "image_id": 449312,
+          "question": "Does this image contain a donut?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 44952,
+          "question": "Does this image contain a donut?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_60_449312_44952",
+      "question": "Does this image contain a donut?"
+    },
+    {
+      "category": "umbrella",
+      "category_id": 28,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 516893,
+          "question": "Does this image contain an umbrella?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 103485,
+          "question": "Does this image contain an umbrella?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_28_516893_103485",
+      "question": "Does this image contain an umbrella?"
+    },
+    {
+      "category": "teddy bear",
+      "category_id": 88,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 14248,
+          "question": "Does this image contain a teddy bear?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 335284,
+          "question": "Does this image contain a teddy bear?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_88_14248_335284",
+      "question": "Does this image contain a teddy bear?"
+    },
+    {
+      "category": "fire hydrant",
+      "category_id": 11,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 354829,
+          "question": "Does this image contain a fire hydrant?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 135399,
+          "question": "Does this image contain a fire hydrant?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_11_354829_135399",
+      "question": "Does this image contain a fire hydrant?"
+    },
+    {
+      "category": "bowl",
+      "category_id": 51,
+      "items": [
+        {
+          "annotated_count": 2,
+          "image_id": 162113,
+          "question": "Does this image contain a bowl?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 187695,
+          "question": "Does this image contain a bowl?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_51_162113_187695",
+      "question": "Does this image contain a bowl?"
+    },
+    {
+      "category": "remote",
+      "category_id": 75,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 395550,
+          "question": "Does this image contain a remote?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 423785,
+          "question": "Does this image contain a remote?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_75_395550_423785",
+      "question": "Does this image contain a remote?"
+    },
+    {
+      "category": "refrigerator",
+      "category_id": 82,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 123622,
+          "question": "Does this image contain a refrigerator?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 531815,
+          "question": "Does this image contain a refrigerator?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_82_123622_531815",
+      "question": "Does this image contain a refrigerator?"
+    },
+    {
+      "category": "kite",
+      "category_id": 38,
+      "items": [
+        {
+          "annotated_count": 6,
+          "image_id": 457074,
+          "question": "Does this image contain a kite?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 388829,
+          "question": "Does this image contain a kite?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_38_457074_388829",
+      "question": "Does this image contain a kite?"
+    },
+    {
+      "category": "truck",
+      "category_id": 8,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 258311,
+          "question": "Does this image contain a truck?",
+          "target": "yes"
+        },
+        {
+          "annotated_count": 0,
+          "image_id": 174062,
+          "question": "Does this image contain a truck?",
+          "target": "no"
+        }
+      ],
+      "kind": "presence",
+      "pair_id": "presence_8_258311_174062",
+      "question": "Does this image contain a truck?"
+    },
+    {
+      "category": "sink",
+      "category_id": 81,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 10114,
+          "question": "How many sinks can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 304165,
+          "question": "How many sinks can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_81_10114_304165",
+      "question": "How many sinks can you see?"
+    },
+    {
+      "category": "suitcase",
+      "category_id": 33,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 104486,
+          "question": "How many suitcases can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 4,
+          "image_id": 261805,
+          "question": "How many suitcases can you see?",
+          "target": "4"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_33_104486_261805",
+      "question": "How many suitcases can you see?"
+    },
+    {
+      "category": "fork",
+      "category_id": 48,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 269450,
+          "question": "How many forks can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 3,
+          "image_id": 169045,
+          "question": "How many forks can you see?",
+          "target": "3"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_48_269450_169045",
+      "question": "How many forks can you see?"
+    },
+    {
+      "category": "tie",
+      "category_id": 32,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 92028,
+          "question": "How many ties can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 478906,
+          "question": "How many ties can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_32_92028_478906",
+      "question": "How many ties can you see?"
+    },
+    {
+      "category": "horse",
+      "category_id": 19,
+      "items": [
+        {
+          "annotated_count": 3,
+          "image_id": 308545,
+          "question": "How many horses can you see?",
+          "target": "3"
+        },
+        {
+          "annotated_count": 1,
+          "image_id": 423715,
+          "question": "How many horses can you see?",
+          "target": "1"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_19_308545_423715",
+      "question": "How many horses can you see?"
+    },
+    {
+      "category": "keyboard",
+      "category_id": 76,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 67536,
+          "question": "How many keyboards can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 97696,
+          "question": "How many keyboards can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_76_67536_97696",
+      "question": "How many keyboards can you see?"
+    },
+    {
+      "category": "sink",
+      "category_id": 81,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 42757,
+          "question": "How many sinks can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 208,
+          "question": "How many sinks can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_81_42757_208",
+      "question": "How many sinks can you see?"
+    },
+    {
+      "category": "donut",
+      "category_id": 60,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 560064,
+          "question": "How many donuts can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 470364,
+          "question": "How many donuts can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_60_560064_470364",
+      "question": "How many donuts can you see?"
+    },
+    {
+      "category": "cat",
+      "category_id": 17,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 263588,
+          "question": "How many cats can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 498716,
+          "question": "How many cats can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_17_263588_498716",
+      "question": "How many cats can you see?"
+    },
+    {
+      "category": "carrot",
+      "category_id": 57,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 130948,
+          "question": "How many carrots can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 4,
+          "image_id": 15254,
+          "question": "How many carrots can you see?",
+          "target": "4"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_57_130948_15254",
+      "question": "How many carrots can you see?"
+    },
+    {
+      "category": "laptop",
+      "category_id": 73,
+      "items": [
+        {
+          "annotated_count": 2,
+          "image_id": 465007,
+          "question": "How many laptops can you see?",
+          "target": "2"
+        },
+        {
+          "annotated_count": 1,
+          "image_id": 30143,
+          "question": "How many laptops can you see?",
+          "target": "1"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_73_465007_30143",
+      "question": "How many laptops can you see?"
+    },
+    {
+      "category": "skis",
+      "category_id": 35,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 296848,
+          "question": "How many pairs of skis can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 531020,
+          "question": "How many pairs of skis can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_35_296848_531020",
+      "question": "How many pairs of skis can you see?"
+    },
+    {
+      "category": "tv",
+      "category_id": 72,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 100726,
+          "question": "How many tvs can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 82229,
+          "question": "How many tvs can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_72_100726_82229",
+      "question": "How many tvs can you see?"
+    },
+    {
+      "category": "remote",
+      "category_id": 75,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 122135,
+          "question": "How many remotes can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 4,
+          "image_id": 339919,
+          "question": "How many remotes can you see?",
+          "target": "4"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_75_122135_339919",
+      "question": "How many remotes can you see?"
+    },
+    {
+      "category": "chair",
+      "category_id": 62,
+      "items": [
+        {
+          "annotated_count": 2,
+          "image_id": 567562,
+          "question": "How many chairs can you see?",
+          "target": "2"
+        },
+        {
+          "annotated_count": 1,
+          "image_id": 144065,
+          "question": "How many chairs can you see?",
+          "target": "1"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_62_567562_144065",
+      "question": "How many chairs can you see?"
+    },
+    {
+      "category": "teddy bear",
+      "category_id": 88,
+      "items": [
+        {
+          "annotated_count": 2,
+          "image_id": 115928,
+          "question": "How many teddy bears can you see?",
+          "target": "2"
+        },
+        {
+          "annotated_count": 1,
+          "image_id": 141211,
+          "question": "How many teddy bears can you see?",
+          "target": "1"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_88_115928_141211",
+      "question": "How many teddy bears can you see?"
+    },
+    {
+      "category": "tie",
+      "category_id": 32,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 263969,
+          "question": "How many ties can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 214492,
+          "question": "How many ties can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_32_263969_214492",
+      "question": "How many ties can you see?"
+    },
+    {
+      "category": "motorcycle",
+      "category_id": 4,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 23821,
+          "question": "How many motorcycles can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 3,
+          "image_id": 178084,
+          "question": "How many motorcycles can you see?",
+          "target": "3"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_4_23821_178084",
+      "question": "How many motorcycles can you see?"
+    },
+    {
+      "category": "bottle",
+      "category_id": 44,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 376564,
+          "question": "How many bottles can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 473406,
+          "question": "How many bottles can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_44_376564_473406",
+      "question": "How many bottles can you see?"
+    },
+    {
+      "category": "donut",
+      "category_id": 60,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 299457,
+          "question": "How many donuts can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 513060,
+          "question": "How many donuts can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_60_299457_513060",
+      "question": "How many donuts can you see?"
+    },
+    {
+      "category": "suitcase",
+      "category_id": 33,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 554142,
+          "question": "How many suitcases can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 517388,
+          "question": "How many suitcases can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_33_554142_517388",
+      "question": "How many suitcases can you see?"
+    },
+    {
+      "category": "orange",
+      "category_id": 55,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 3703,
+          "question": "How many oranges can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 119452,
+          "question": "How many oranges can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_55_3703_119452",
+      "question": "How many oranges can you see?"
+    },
+    {
+      "category": "frisbee",
+      "category_id": 34,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 169361,
+          "question": "How many frisbees can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 313398,
+          "question": "How many frisbees can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_34_169361_313398",
+      "question": "How many frisbees can you see?"
+    },
+    {
+      "category": "toothbrush",
+      "category_id": 90,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 52312,
+          "question": "How many toothbrushes can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 8418,
+          "question": "How many toothbrushes can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_90_52312_8418",
+      "question": "How many toothbrushes can you see?"
+    },
+    {
+      "category": "spoon",
+      "category_id": 50,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 30954,
+          "question": "How many spoons can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 191301,
+          "question": "How many spoons can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_50_30954_191301",
+      "question": "How many spoons can you see?"
+    },
+    {
+      "category": "fire hydrant",
+      "category_id": 11,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 416220,
+          "question": "How many fire hydrants can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 47367,
+          "question": "How many fire hydrants can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_11_416220_47367",
+      "question": "How many fire hydrants can you see?"
+    },
+    {
+      "category": "microwave",
+      "category_id": 78,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 293148,
+          "question": "How many microwaves can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 519649,
+          "question": "How many microwaves can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_78_293148_519649",
+      "question": "How many microwaves can you see?"
+    },
+    {
+      "category": "keyboard",
+      "category_id": 76,
+      "items": [
+        {
+          "annotated_count": 2,
+          "image_id": 514504,
+          "question": "How many keyboards can you see?",
+          "target": "2"
+        },
+        {
+          "annotated_count": 1,
+          "image_id": 472678,
+          "question": "How many keyboards can you see?",
+          "target": "1"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_76_514504_472678",
+      "question": "How many keyboards can you see?"
+    },
+    {
+      "category": "stop sign",
+      "category_id": 13,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 20904,
+          "question": "How many stop signs can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 486388,
+          "question": "How many stop signs can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_13_20904_486388",
+      "question": "How many stop signs can you see?"
+    },
+    {
+      "category": "zebra",
+      "category_id": 24,
+      "items": [
+        {
+          "annotated_count": 2,
+          "image_id": 504439,
+          "question": "How many zebras can you see?",
+          "target": "2"
+        },
+        {
+          "annotated_count": 1,
+          "image_id": 331329,
+          "question": "How many zebras can you see?",
+          "target": "1"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_24_504439_331329",
+      "question": "How many zebras can you see?"
+    },
+    {
+      "category": "oven",
+      "category_id": 79,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 79189,
+          "question": "How many ovens can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 272440,
+          "question": "How many ovens can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_79_79189_272440",
+      "question": "How many ovens can you see?"
+    },
+    {
+      "category": "chair",
+      "category_id": 62,
+      "items": [
+        {
+          "annotated_count": 1,
+          "image_id": 418684,
+          "question": "How many chairs can you see?",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "image_id": 390184,
+          "question": "How many chairs can you see?",
+          "target": "2"
+        }
+      ],
+      "kind": "counting",
+      "pair_id": "counting_62_418684_390184",
+      "question": "How many chairs can you see?"
+    }
+  ],
+  "split": "test"
+}

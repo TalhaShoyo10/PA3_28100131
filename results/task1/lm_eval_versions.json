@@ -1,0 +1,65 @@
+{
+  "baseline": {
+    "backend": "hf",
+    "lm_eval_version": "0.4.13",
+    "versions": {
+      "arc_easy": 1.0,
+      "boolq": 2.0,
+      "hellaswag": 1.0
+    }
+  },
+  "full_ft_1250": {
+    "backend": "hf",
+    "lm_eval_version": "0.4.13",
+    "versions": {
+      "arc_easy": 1.0,
+      "boolq": 2.0,
+      "hellaswag": 1.0
+    }
+  },
+  "full_ft_625": {
+    "backend": "hf",
+    "lm_eval_version": "0.4.13",
+    "versions": {
+      "arc_easy": 1.0,
+      "boolq": 2.0,
+      "hellaswag": 1.0
+    }
+  },
+  "l2sp_1250": {
+    "backend": "hf",
+    "lm_eval_version": "0.4.13",
+    "versions": {
+      "arc_easy": 1.0,
+      "boolq": 2.0,
+      "hellaswag": 1.0
+    }
+  },
+  "lora_r16": {
+    "backend": "hf",
+    "lm_eval_version": "0.4.13",
+    "versions": {
+      "arc_easy": 1.0,
+      "boolq": 2.0,
+      "hellaswag": 1.0
+    }
+  },
+  "lora_r4": {
+    "backend": "hf",
+    "lm_eval_version": "0.4.13",
+    "versions": {
+      "arc_easy": 1.0,
+      "boolq": 2.0,
+      "hellaswag": 1.0
+    }
+  },
+  "oplora_r16": {
+    "backend": "hf",
+    "lm_eval_version": "0.4.13",
+    "versions": {
+      "arc_easy": 1.0,
+      "boolq": 2.0,
+      "hellaswag": 1.0
+    }
+  }
+}

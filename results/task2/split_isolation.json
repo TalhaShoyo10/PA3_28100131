@@ -1,0 +1,6 @@
+{
+  "dev_test_overlap": 0,
+  "train_dev_overlap": 0,
+  "train_test_overlap": 0,
+  "training_images_outside_train_list": 0
+}

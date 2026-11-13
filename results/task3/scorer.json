@@ -1,0 +1,19 @@
+{
+  "latex2sympy2_extended": "1.11.0",
+  "math_verify": "0.9.0",
+  "math_verify_settings": {
+    "float_rounding": 6,
+    "parse_wrapper": "$...$",
+    "parsing_timeout_s": 5,
+    "strict": true,
+    "timeout_mechanism": "each parse/verify call runs in a spawned worker process; on timeout the worker is killed and the call counts as an empty parse / not equal, matching math-verify's own TimeoutException handling",
+    "verify_timeout_s": 5
+  },
+  "mathvista_metadata": {
+    "file": "data/testmini-00000-of-00001-725687bf7a18d64b.parquet",
+    "repo": "AI4Math/MathVista",
+    "revision": "2b6ad69445fbb5695c9b165475e8decdbeb97747"
+  },
+  "normalize_py_sha256": "a33ebd91809f49faf6c3e81029e7dacb0a0c9df8f44b90581f19059f51bfcddb",
+  "sympy": "1.14.0"
+}

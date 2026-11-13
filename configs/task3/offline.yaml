@@ -1,0 +1,32 @@
+seed: 6304
+data_root: D:/Desktop/ATML-PA3-Data
+scorer:
+  float_rounding: 6
+  strict: true
+  parsing_timeout_s: 5
+  verify_timeout_s: 5
+mathvista_metadata:
+  repo: AI4Math/MathVista
+  revision: 2b6ad69445fbb5695c9b165475e8decdbeb97747
+  file: data/testmini-00000-of-00001-725687bf7a18d64b.parquet
+datasets:
+  math:
+    folder: qwen25-math
+    vlm: false
+    expected:
+      rows: 32000
+      questions: 1000
+      rollouts_per_question: 32
+      retained_tokens: 20742094
+      capped_rollouts: 523
+      null_extracted_answers: 521
+  mathvista:
+    folder: qwen25vl-mathvista
+    vlm: true
+    expected:
+      rows: 32000
+      questions: 1000
+      rollouts_per_question: 32
+      retained_tokens: 8961703
+      capped_rollouts: 487
+      null_extracted_answers: 3032

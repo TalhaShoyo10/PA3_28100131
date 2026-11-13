@@ -1,0 +1,22 @@
+{
+  "bootstrap_resamples": 1000,
+  "budgets": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "dataset": "math",
+  "methods": [
+    "first_ans",
+    "self_consistency",
+    "max_L",
+    "max_K",
+    "rwc_K",
+    "shortest"
+  ],
+  "orders": 10,
+  "seconds": 15.265208899974823
+}

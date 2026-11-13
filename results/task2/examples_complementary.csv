@@ -1,0 +1,17 @@
+suite,rule,pair_id,slot,type,question,reference,pred_correct,pred_complementary,pred_mismatched,pred_none
+vqav2,correct_both_and_swap_follows_partner,226097003_214204004,0,other,Which room of the house is this?,kitchen,kitchen,bathroom,garage,The room is the **living room**.
+vqav2,correct_both_and_swap_follows_partner,226097003_214204004,1,other,Which room of the house is this?,bathroom,bathroom,kitchen,garage,The room is the **living room**.
+vqav2,correct_both_and_swap_follows_partner,246454001_391620001,0,other,What is the girl petting?,dog,dog,horse,banana,"The term ""girl petting"" is not a standard or widely recognized phrase."
+vqav2,correct_both_and_swap_follows_partner,246454001_391620001,1,other,What is the girl petting?,horse,horse,dog,dog,"The term ""girl petting"" is not a standard or widely recognized phrase."
+vqav2,wrong_under_correct_image,119061001_188752002,0,number,How many bunches of bananas are hanging?,8,3,3,1,The number of bunches of bananas hanging is not provided in the question. If
+vqav2,wrong_under_correct_image,119061001_188752002,1,number,How many bunches of bananas are hanging?,2,3,3,1,The number of bunches of bananas hanging is not provided in the question. If
+vqav2,wrong_under_correct_image,1577004_417015004,0,other,What is the center color of the flowers?,yellow,white,white,white,The center color of the flowers is typically **white**.
+vqav2,wrong_under_correct_image,1577004_417015004,1,other,What is the center color of the flowers?,pink,white,white,red,The center color of the flowers is typically **white**.
+grounding,correct_both_and_swap_follows_partner,counting_13_20904_486388,0,counting,How many stop signs can you see?,1,1,2,1,There are no stop signs visible in the sky.
+grounding,correct_both_and_swap_follows_partner,counting_13_20904_486388,1,counting,How many stop signs can you see?,2,2,1,1,There are no stop signs visible in the sky.
+grounding,correct_both_and_swap_follows_partner,counting_24_504439_331329,0,counting,How many zebras can you see?,2,2,1,0,There are no zebras in the real world.
+grounding,correct_both_and_swap_follows_partner,counting_24_504439_331329,1,counting,How many zebras can you see?,1,1,2,1,There are no zebras in the real world.
+grounding,wrong_under_correct_image,counting_19_308545_423715,0,counting,How many horses can you see?,3,1,2,2,"I cannot see horses, but I can see horses in the wild."
+grounding,wrong_under_correct_image,counting_19_308545_423715,1,counting,How many horses can you see?,1,2,1,0,"I cannot see horses, but I can see horses in the wild."
+grounding,wrong_under_correct_image,counting_33_104486_261805,0,counting,How many suitcases can you see?,1,3,3,1,There are no suitcases visible in the current context.
+grounding,wrong_under_correct_image,counting_33_104486_261805,1,counting,How many suitcases can you see?,4,3,3,1,There are no suitcases visible in the current context.

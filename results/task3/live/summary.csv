@@ -1,0 +1,4 @@
+strategy,n_questions,accuracy,mean_input_tokens,mean_output_tokens,total_output_tokens,mean_runtime_s,extraction_rate,truncation_rate,output_allowance
+single,50,0.62,108.38,699.82,34991,35.616457466099995,0.98,0.02,3072
+parallel,50,0.62,325.14,1907.06,95353,96.2867584789401,0.82,0.34,3072
+refine,50,0.62,898.92,1229.04,61452,62.58602444234,1.0,0.0,3072

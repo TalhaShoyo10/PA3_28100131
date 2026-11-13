@@ -1,0 +1,51 @@
+{
+  "incorrect_early_stops": 4762,
+  "of_which_fixed32_correct": 576,
+  "selected": {
+    "controllers_py_sha256": "721e6fbdb75518a152f83299727f50fb1c73eded59b19163417d5f2b2bcb9eaf",
+    "datasets": {
+      "math": {
+        "agreement": {
+          "accuracy": 0.8169999999999998,
+          "family": "agreement",
+          "gamma": null,
+          "mean_rollouts": 6.6259999999999994,
+          "mean_token_cost": 5001.3095,
+          "tau": 0.5
+        },
+        "fixed32_dev_accuracy": 0.825,
+        "fixed32_dev_cost": 18322.4,
+        "quality_aware": {
+          "accuracy": 0.8190000000000001,
+          "family": "quality_aware",
+          "gamma": 0.0,
+          "mean_rollouts": 7.228,
+          "mean_token_cost": 5482.116999999999,
+          "tau": 0.5
+        }
+      },
+      "mathvista": {
+        "agreement": {
+          "accuracy": 0.6375,
+          "family": "agreement",
+          "gamma": null,
+          "mean_rollouts": 14.056,
+          "mean_token_cost": 5276.6725,
+          "tau": 0.625
+        },
+        "fixed32_dev_accuracy": 0.6435,
+        "fixed32_dev_cost": 9217.485,
+        "quality_aware": {
+          "accuracy": 0.638,
+          "family": "quality_aware",
+          "gamma": 0.0,
+          "mean_rollouts": 14.18,
+          "mean_token_cost": 5317.7905,
+          "tau": 0.625
+        }
+      }
+    },
+    "selection_split": "dev",
+    "tolerance_pp": 1.0
+  }
+}

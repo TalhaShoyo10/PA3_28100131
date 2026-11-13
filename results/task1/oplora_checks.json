@@ -1,0 +1,15 @@
+{
+  "UkT_dW_over_dW": {
+    "max": 0.00011945742880925536,
+    "mean": 3.832964703828371e-05
+  },
+  "basis_bytes": 322961408,
+  "dW_Vk_over_dW": {
+    "max": 0.00018650252604857087,
+    "mean": 0.00013323958354499618
+  },
+  "export_s": 0.06167207099861116,
+  "initial_unprojected_factors_identical_to_lora16": true,
+  "n_factor_tensors": 392,
+  "svd_preprocessing_s": 31.99558104900001
+}

@@ -1,0 +1,28 @@
+{
+  "bootstrap_resamples": 1000,
+  "budgets": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "dataset": "mathvista",
+  "methods": [
+    "first_ans",
+    "self_consistency",
+    "max_L",
+    "max_K",
+    "rwc_K",
+    "shortest",
+    "max_V",
+    "rwc_V",
+    "max_Z",
+    "rwc_Z",
+    "max_Ztok",
+    "rwc_Ztok"
+  ],
+  "orders": 10,
+  "seconds": 48.3496799999848
+}

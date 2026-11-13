@@ -1,0 +1,18 @@
+seed: 6304
+model: Qwen/Qwen3-0.6B
+metamath:
+  name: meta-math/MetaMathQA
+  split: train
+  n_keep: 40000
+  max_tokens: 2048
+gsm8k:
+  name: openai/gsm8k
+  config: main
+  split: test
+  expected_size: 1319
+hellaswag:
+  name: Rowan/hellaswag
+  split: validation
+  expected_size: 10042
+probe:
+  n_each: 32
